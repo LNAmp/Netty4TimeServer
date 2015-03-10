@@ -1,0 +1,1131 @@
+2015-02-01 12:20:48  [ nioEventLoopGroup-3-1:0 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 12:20:48  [ nioEventLoopGroup-3-1:63 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 12:20:49  [ nioEventLoopGroup-3-1:116 ] - [ INFO ]  Decoding
+2015-02-01 12:20:49  [ nioEventLoopGroup-3-1:216 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 12:20:49  [ nioEventLoopGroup-3-1:216 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 12:20:49  [ pool-1-thread-1:268 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 12:20:49  [ pool-1-thread-1:1056 ] - [ INFO ]  the user is User [userId=2, username=yiqian, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 12:20:50  [ pool-1-thread-1:1799 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 12:20:50  [ pool-1-thread-1:1800 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 12:20:50  [ pool-1-thread-1:1944 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 12:20:50  [ pool-1-thread-1:1947 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 12:20:55  [ pool-1-thread-1:6222 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 12:20:55  [ pool-1-thread-1:6372 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 12:20:55  [ nioEventLoopGroup-3-1:6442 ] - [ INFO ]  Encoding... 
+2015-02-01 12:23:44  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 12:23:44  [ main:2 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 12:23:44  [ main:61 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 12:23:44  [ main:67 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 12:23:49  [ main:4311 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 12:23:49  [ main:4348 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 12:24:03  [ nioEventLoopGroup-3-1:18554 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 12:24:03  [ nioEventLoopGroup-3-1:18560 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 12:24:03  [ nioEventLoopGroup-3-1:18649 ] - [ INFO ]  Decoding
+2015-02-01 12:24:03  [ nioEventLoopGroup-3-1:18672 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 12:24:03  [ nioEventLoopGroup-3-1:18672 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 12:24:03  [ pool-1-thread-1:18674 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 12:24:03  [ pool-1-thread-1:18906 ] - [ INFO ]  the user is User [userId=2, username=yiqian, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 12:24:03  [ nioEventLoopGroup-3-1:18924 ] - [ INFO ]  Encoding... 
+2015-02-01 12:24:33  [ nioEventLoopGroup-3-1:48949 ] - [ INFO ]  At time : 12:24:33 ,to send the PING.
+2015-02-01 12:24:33  [ nioEventLoopGroup-3-1:48949 ] - [ INFO ]  Encoding... 
+2015-02-01 12:24:33  [ nioEventLoopGroup-3-1:48955 ] - [ INFO ]  Decoding
+2015-02-01 12:24:33  [ nioEventLoopGroup-3-1:48955 ] - [ INFO ]  At time : 12:24:33 ,received PONG from client.
+2015-02-01 12:25:03  [ nioEventLoopGroup-3-1:78951 ] - [ INFO ]  At time : 12:25:03 ,to send the PING.
+2015-02-01 12:25:03  [ nioEventLoopGroup-3-1:78951 ] - [ INFO ]  Encoding... 
+2015-02-01 12:25:31  [ nioEventLoopGroup-3-2:106503 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 12:25:31  [ nioEventLoopGroup-3-2:106504 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 12:25:31  [ nioEventLoopGroup-3-2:106984 ] - [ INFO ]  Decoding
+2015-02-01 12:25:31  [ nioEventLoopGroup-3-2:106984 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 12:25:31  [ nioEventLoopGroup-3-2:106984 ] - [ INFO ]  process the RegisterMsg.
+2015-02-01 12:25:31  [ pool-1-thread-2:107020 ] - [ INFO ]  start run regTask, congs!
+2015-02-01 12:25:31  [ nioEventLoopGroup-3-2:107022 ] - [ INFO ]  Encoding... 
+2015-02-01 12:25:33  [ nioEventLoopGroup-3-1:108952 ] - [ INFO ]  At time : 12:25:33 ,to send the PING.
+2015-02-01 12:25:33  [ nioEventLoopGroup-3-1:108952 ] - [ INFO ]  Encoding... 
+2015-02-01 12:25:33  [ nioEventLoopGroup-3-1:108956 ] - [ INFO ]  At time : 12:25:33 timeout to rev the PONG. 
+2015-02-01 12:25:33  [ nioEventLoopGroup-3-1:108956 ] - [ INFO ]  the user User [userId=2, username=yiqian, password=]	fr&cMV?&????, email=aaaaaa@a.com]is about to leave.
+2015-02-01 12:25:33  [ nioEventLoopGroup-3-1:108960 ] - [ INFO ]  Decoding
+2015-02-01 12:28:25  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 12:28:25  [ main:3 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 12:28:25  [ main:85 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 12:28:25  [ main:88 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 12:28:30  [ main:4350 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 12:28:30  [ main:4375 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 12:28:30  [ hz._hzInstance_1_dev.HealthMonitor:4576 ] - [ INFO ]  [10.108.250.122]:5701 [dev] memory.used=7.4M, memory.free=8.1M, memory.total=15.5M, memory.max=247.5M, memory.used/total=47.77%, memory.used/max=2.99%, load.process=-100.00%, load.system=100.00%, load.systemAverage=-100.00%, thread.count=21, thread.peakCount=22, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.operation.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operation.size=0, executor.q.response.size=0, operations.remote.size=0, operations.running.size=0, proxy.count=0, clientEndpoint.connection.count=0, clientEndpoint.deadconnection.count=0, connection.active.count=0, connection.count=0
+2015-02-01 12:28:53  [ nioEventLoopGroup-3-1:27934 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 12:28:53  [ nioEventLoopGroup-3-1:27939 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 12:28:53  [ nioEventLoopGroup-3-1:28055 ] - [ INFO ]  Decoding
+2015-02-01 12:28:53  [ nioEventLoopGroup-3-1:28094 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 12:28:53  [ nioEventLoopGroup-3-1:28094 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 12:28:53  [ pool-1-thread-1:28098 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 12:28:54  [ pool-1-thread-1:28317 ] - [ INFO ]  the user is User [userId=2, username=yiqian, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 12:28:54  [ nioEventLoopGroup-3-1:28335 ] - [ INFO ]  Encoding... 
+2015-02-01 12:29:03  [ nioEventLoopGroup-3-2:37701 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 12:29:03  [ nioEventLoopGroup-3-2:37702 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 12:29:03  [ nioEventLoopGroup-3-2:37764 ] - [ INFO ]  Decoding
+2015-02-01 12:29:03  [ nioEventLoopGroup-3-2:37764 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 12:29:03  [ nioEventLoopGroup-3-2:37765 ] - [ INFO ]  process the RegisterMsg.
+2015-02-01 12:29:03  [ pool-1-thread-1:37766 ] - [ INFO ]  start run regTask, congs!
+2015-02-01 12:29:03  [ nioEventLoopGroup-3-2:37769 ] - [ INFO ]  Encoding... 
+2015-02-01 12:29:17  [ nioEventLoopGroup-3-2:51715 ] - [ INFO ]  Decoding
+2015-02-01 12:29:24  [ nioEventLoopGroup-3-1:58345 ] - [ INFO ]  At time : 12:29:24 ,to send the PING.
+2015-02-01 12:29:24  [ nioEventLoopGroup-3-1:58346 ] - [ INFO ]  Encoding... 
+2015-02-01 12:29:24  [ nioEventLoopGroup-3-1:58378 ] - [ INFO ]  Decoding
+2015-02-01 12:29:24  [ nioEventLoopGroup-3-1:58378 ] - [ INFO ]  At time : 12:29:24 ,received PONG from client.
+2015-02-01 12:29:54  [ nioEventLoopGroup-3-1:88346 ] - [ INFO ]  At time : 12:29:54 ,to send the PING.
+2015-02-01 12:29:54  [ nioEventLoopGroup-3-1:88346 ] - [ INFO ]  Encoding... 
+2015-02-01 12:29:54  [ nioEventLoopGroup-3-1:88355 ] - [ INFO ]  Decoding
+2015-02-01 12:29:54  [ nioEventLoopGroup-3-1:88355 ] - [ INFO ]  At time : 12:29:54 ,received PONG from client.
+2015-02-01 12:30:24  [ nioEventLoopGroup-3-1:118348 ] - [ INFO ]  At time : 12:30:24 ,to send the PING.
+2015-02-01 12:30:24  [ nioEventLoopGroup-3-1:118348 ] - [ INFO ]  Encoding... 
+2015-02-01 12:30:24  [ nioEventLoopGroup-3-1:118357 ] - [ INFO ]  Decoding
+2015-02-01 12:30:24  [ nioEventLoopGroup-3-1:118357 ] - [ INFO ]  At time : 12:30:24 ,received PONG from client.
+2015-02-01 12:30:54  [ nioEventLoopGroup-3-1:148349 ] - [ INFO ]  At time : 12:30:54 ,to send the PING.
+2015-02-01 12:30:54  [ nioEventLoopGroup-3-1:148349 ] - [ INFO ]  Encoding... 
+2015-02-01 12:30:54  [ nioEventLoopGroup-3-1:148359 ] - [ INFO ]  Decoding
+2015-02-01 12:30:54  [ nioEventLoopGroup-3-1:148359 ] - [ INFO ]  At time : 12:30:54 ,received PONG from client.
+2015-02-01 12:31:24  [ nioEventLoopGroup-3-1:178350 ] - [ INFO ]  At time : 12:31:24 ,to send the PING.
+2015-02-01 12:31:24  [ nioEventLoopGroup-3-1:178350 ] - [ INFO ]  Encoding... 
+2015-02-01 12:31:24  [ nioEventLoopGroup-3-1:178354 ] - [ INFO ]  Decoding
+2015-02-01 12:31:24  [ nioEventLoopGroup-3-1:178354 ] - [ INFO ]  At time : 12:31:24 ,received PONG from client.
+2015-02-01 12:31:54  [ nioEventLoopGroup-3-1:208351 ] - [ INFO ]  At time : 12:31:54 ,to send the PING.
+2015-02-01 12:31:54  [ nioEventLoopGroup-3-1:208351 ] - [ INFO ]  Encoding... 
+2015-02-01 12:31:54  [ nioEventLoopGroup-3-1:208359 ] - [ INFO ]  Decoding
+2015-02-01 12:31:54  [ nioEventLoopGroup-3-1:208359 ] - [ INFO ]  At time : 12:31:54 ,received PONG from client.
+2015-02-01 12:32:03  [ nioEventLoopGroup-3-3:218067 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 12:32:03  [ nioEventLoopGroup-3-3:218068 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 12:32:04  [ nioEventLoopGroup-3-3:218184 ] - [ INFO ]  Decoding
+2015-02-01 12:32:04  [ nioEventLoopGroup-3-3:218184 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 12:32:04  [ nioEventLoopGroup-3-3:218184 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 12:32:04  [ pool-1-thread-2:218193 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 12:32:04  [ pool-1-thread-2:218195 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 12:32:04  [ nioEventLoopGroup-3-3:218196 ] - [ INFO ]  Encoding... 
+2015-02-01 12:32:24  [ nioEventLoopGroup-3-1:238353 ] - [ INFO ]  At time : 12:32:24 ,to send the PING.
+2015-02-01 12:32:24  [ nioEventLoopGroup-3-1:238353 ] - [ INFO ]  Encoding... 
+2015-02-01 12:32:24  [ nioEventLoopGroup-3-1:238355 ] - [ INFO ]  Decoding
+2015-02-01 12:32:24  [ nioEventLoopGroup-3-1:238356 ] - [ INFO ]  At time : 12:32:24 ,received PONG from client.
+2015-02-01 12:32:34  [ nioEventLoopGroup-3-3:248196 ] - [ INFO ]  At time : 12:32:34 ,to send the PING.
+2015-02-01 12:32:34  [ nioEventLoopGroup-3-3:248196 ] - [ INFO ]  Encoding... 
+2015-02-01 12:32:34  [ nioEventLoopGroup-3-3:248198 ] - [ INFO ]  Decoding
+2015-02-01 12:32:34  [ nioEventLoopGroup-3-3:248198 ] - [ INFO ]  At time : 12:32:34 ,received PONG from client.
+2015-02-01 12:32:54  [ nioEventLoopGroup-3-1:268354 ] - [ INFO ]  At time : 12:32:54 ,to send the PING.
+2015-02-01 12:32:54  [ nioEventLoopGroup-3-1:268354 ] - [ INFO ]  Encoding... 
+2015-02-01 12:32:54  [ nioEventLoopGroup-3-1:268357 ] - [ INFO ]  Decoding
+2015-02-01 12:32:54  [ nioEventLoopGroup-3-1:268357 ] - [ INFO ]  At time : 12:32:54 ,received PONG from client.
+2015-02-01 12:33:04  [ nioEventLoopGroup-3-3:278198 ] - [ INFO ]  At time : 12:33:04 ,to send the PING.
+2015-02-01 12:33:04  [ nioEventLoopGroup-3-3:278198 ] - [ INFO ]  Encoding... 
+2015-02-01 12:33:04  [ nioEventLoopGroup-3-3:278199 ] - [ INFO ]  Decoding
+2015-02-01 12:33:04  [ nioEventLoopGroup-3-3:278199 ] - [ INFO ]  At time : 12:33:04 ,received PONG from client.
+2015-02-01 12:33:09  [ nioEventLoopGroup-3-3:283847 ] - [ INFO ]  Decoding
+2015-02-01 12:33:21  [ nioEventLoopGroup-3-4:295468 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 12:33:21  [ nioEventLoopGroup-3-4:295468 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 12:33:21  [ nioEventLoopGroup-3-4:295538 ] - [ INFO ]  Decoding
+2015-02-01 12:33:21  [ nioEventLoopGroup-3-4:295539 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 12:33:21  [ nioEventLoopGroup-3-4:295539 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 12:33:21  [ pool-1-thread-3:295539 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 12:33:21  [ pool-1-thread-3:295542 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 12:33:21  [ nioEventLoopGroup-3-4:295543 ] - [ INFO ]  Encoding... 
+2015-02-01 12:33:22  [ nioEventLoopGroup-3-4:296984 ] - [ INFO ]  Decoding
+2015-02-01 12:33:24  [ nioEventLoopGroup-3-1:298354 ] - [ INFO ]  At time : 12:33:24 ,to send the PING.
+2015-02-01 12:33:24  [ nioEventLoopGroup-3-1:298354 ] - [ INFO ]  Encoding... 
+2015-02-01 12:33:24  [ nioEventLoopGroup-3-1:298359 ] - [ INFO ]  Decoding
+2015-02-01 12:33:24  [ nioEventLoopGroup-3-1:298360 ] - [ INFO ]  At time : 12:33:24 ,received PONG from client.
+2015-02-01 12:33:28  [ nioEventLoopGroup-3-5:303153 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 12:33:28  [ nioEventLoopGroup-3-5:303154 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 12:33:35  [ nioEventLoopGroup-3-5:310017 ] - [ INFO ]  Decoding
+2015-02-01 12:33:35  [ nioEventLoopGroup-3-5:310017 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 12:33:35  [ nioEventLoopGroup-3-5:310017 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 12:33:35  [ pool-1-thread-3:310020 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 12:33:35  [ pool-1-thread-3:310021 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 12:33:35  [ nioEventLoopGroup-3-5:310022 ] - [ INFO ]  Encoding... 
+2015-02-01 12:33:52  [ nioEventLoopGroup-3-5:326253 ] - [ INFO ]  Decoding
+2015-02-01 12:33:54  [ nioEventLoopGroup-3-1:328356 ] - [ INFO ]  At time : 12:33:54 ,to send the PING.
+2015-02-01 12:33:54  [ nioEventLoopGroup-3-1:328356 ] - [ INFO ]  Encoding... 
+2015-02-01 12:33:54  [ nioEventLoopGroup-3-1:328361 ] - [ INFO ]  Decoding
+2015-02-01 12:33:54  [ nioEventLoopGroup-3-1:328361 ] - [ INFO ]  At time : 12:33:54 ,received PONG from client.
+2015-02-01 12:34:24  [ nioEventLoopGroup-3-1:358357 ] - [ INFO ]  At time : 12:34:24 ,to send the PING.
+2015-02-01 12:34:24  [ nioEventLoopGroup-3-1:358357 ] - [ INFO ]  Encoding... 
+2015-02-01 12:34:24  [ nioEventLoopGroup-3-1:358360 ] - [ INFO ]  Decoding
+2015-02-01 12:34:24  [ nioEventLoopGroup-3-1:358361 ] - [ INFO ]  At time : 12:34:24 ,received PONG from client.
+2015-02-01 12:34:54  [ nioEventLoopGroup-3-1:388358 ] - [ INFO ]  At time : 12:34:54 ,to send the PING.
+2015-02-01 12:34:54  [ nioEventLoopGroup-3-1:388358 ] - [ INFO ]  Encoding... 
+2015-02-01 12:34:54  [ nioEventLoopGroup-3-1:388361 ] - [ INFO ]  Decoding
+2015-02-01 12:34:54  [ nioEventLoopGroup-3-1:388361 ] - [ INFO ]  At time : 12:34:54 ,received PONG from client.
+2015-02-01 12:35:24  [ nioEventLoopGroup-3-1:418359 ] - [ INFO ]  At time : 12:35:24 ,to send the PING.
+2015-02-01 12:35:24  [ nioEventLoopGroup-3-1:418359 ] - [ INFO ]  Encoding... 
+2015-02-01 12:35:24  [ nioEventLoopGroup-3-1:418364 ] - [ INFO ]  Decoding
+2015-02-01 12:35:24  [ nioEventLoopGroup-3-1:418364 ] - [ INFO ]  At time : 12:35:24 ,received PONG from client.
+2015-02-01 12:35:54  [ nioEventLoopGroup-3-1:448361 ] - [ INFO ]  At time : 12:35:54 ,to send the PING.
+2015-02-01 12:35:54  [ nioEventLoopGroup-3-1:448361 ] - [ INFO ]  Encoding... 
+2015-02-01 12:35:54  [ nioEventLoopGroup-3-1:448382 ] - [ INFO ]  Decoding
+2015-02-01 12:35:54  [ nioEventLoopGroup-3-1:448383 ] - [ INFO ]  At time : 12:35:54 ,received PONG from client.
+2015-02-01 12:36:01  [ nioEventLoopGroup-3-1:455522 ] - [ INFO ]  Decoding
+2015-02-01 12:37:24  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 12:37:24  [ main:2 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 12:37:24  [ main:60 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 12:37:24  [ main:64 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 12:37:29  [ main:4315 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 12:37:29  [ main:4368 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 12:37:29  [ hz._hzInstance_1_dev.HealthMonitor:4519 ] - [ INFO ]  [10.108.250.122]:5701 [dev] memory.used=5.5M, memory.free=10.0M, memory.total=15.5M, memory.max=247.5M, memory.used/total=35.66%, memory.used/max=2.23%, load.process=-100.00%, load.system=100.00%, load.systemAverage=-100.00%, thread.count=20, thread.peakCount=21, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.operation.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operation.size=0, executor.q.response.size=0, operations.remote.size=0, operations.running.size=0, proxy.count=0, clientEndpoint.connection.count=0, clientEndpoint.deadconnection.count=0, connection.active.count=0, connection.count=0
+2015-02-01 12:37:35  [ nioEventLoopGroup-3-1:10827 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 12:37:35  [ nioEventLoopGroup-3-1:10832 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 12:37:35  [ nioEventLoopGroup-3-1:10893 ] - [ INFO ]  Decoding
+2015-02-01 12:37:35  [ nioEventLoopGroup-3-1:10912 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 12:37:35  [ nioEventLoopGroup-3-1:10912 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 12:37:35  [ pool-1-thread-1:10918 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 12:37:35  [ pool-1-thread-1:11191 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 12:37:35  [ nioEventLoopGroup-3-1:11206 ] - [ INFO ]  Encoding... 
+2015-02-01 20:16:24  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 20:16:24  [ main:45 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 20:16:24  [ main:222 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 20:16:24  [ main:225 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 20:16:28  [ main:4661 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 20:16:29  [ main:4782 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 20:16:38  [ nioEventLoopGroup-3-1:14194 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 20:16:38  [ nioEventLoopGroup-3-1:14366 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 20:16:38  [ nioEventLoopGroup-3-1:14476 ] - [ INFO ]  Decoding
+2015-02-01 20:16:38  [ nioEventLoopGroup-3-1:14616 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:16:38  [ nioEventLoopGroup-3-1:14616 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 20:16:38  [ pool-1-thread-1:14716 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 20:16:39  [ pool-1-thread-1:15547 ] - [ INFO ]  can't find the user!
+2015-02-01 20:16:39  [ nioEventLoopGroup-3-1:15588 ] - [ INFO ]  Encoding... 
+2015-02-01 20:17:09  [ nioEventLoopGroup-3-1:45657 ] - [ INFO ]  At time : 20:17:09 ,to send the PING.
+2015-02-01 20:17:09  [ nioEventLoopGroup-3-1:45658 ] - [ INFO ]  Encoding... 
+2015-02-01 20:17:09  [ nioEventLoopGroup-3-1:45660 ] - [ INFO ]  Decoding
+2015-02-01 20:17:09  [ nioEventLoopGroup-3-1:45661 ] - [ INFO ]  At time : 20:17:09 ,received PONG from client.
+2015-02-01 20:17:12  [ nioEventLoopGroup-3-1:47864 ] - [ INFO ]  Decoding
+2015-02-01 20:20:02  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 20:20:02  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 20:20:02  [ main:60 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 20:20:02  [ main:70 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 20:20:15  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 20:20:15  [ main:10 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 20:20:15  [ main:71 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 20:20:15  [ main:81 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 20:20:19  [ main:4322 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 20:20:19  [ main:4373 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 20:20:31  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 20:20:31  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 20:20:31  [ main:61 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 20:20:31  [ main:61 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 20:20:35  [ main:4320 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 20:20:36  [ main:4381 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 20:20:50  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 20:20:50  [ main:10 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 20:20:50  [ main:70 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 20:20:50  [ main:80 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 20:20:54  [ main:4330 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 20:20:54  [ main:4371 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 20:20:54  [ hz._hzInstance_1_dev.HealthMonitor:4521 ] - [ INFO ]  [10.108.250.122]:5701 [dev] memory.used=5.9M, memory.free=9.6M, memory.total=15.5M, memory.max=247.5M, memory.used/total=37.84%, memory.used/max=2.37%, load.process=-100.00%, load.system=100.00%, load.systemAverage=-100.00%, thread.count=20, thread.peakCount=21, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.operation.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operation.size=0, executor.q.response.size=0, operations.remote.size=0, operations.running.size=0, proxy.count=0, clientEndpoint.connection.count=0, clientEndpoint.deadconnection.count=0, connection.active.count=0, connection.count=0
+2015-02-01 20:21:15  [ nioEventLoopGroup-3-1:24964 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 20:21:15  [ nioEventLoopGroup-3-1:24976 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 20:21:15  [ nioEventLoopGroup-3-1:25054 ] - [ INFO ]  Decoding
+2015-02-01 20:21:15  [ nioEventLoopGroup-3-1:25082 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:21:15  [ nioEventLoopGroup-3-1:25082 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 20:21:15  [ pool-1-thread-1:25089 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 20:21:45  [ nioEventLoopGroup-3-1:54987 ] - [ INFO ]  At time : 20:21:45 ,to send the PING.
+2015-02-01 20:21:50  [ nioEventLoopGroup-3-1:60098 ] - [ INFO ]  Encoding... 
+2015-02-01 20:23:32  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 20:23:32  [ main:3 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 20:23:32  [ main:62 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 20:23:32  [ main:67 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 20:23:37  [ main:4310 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 20:23:37  [ main:4343 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 20:23:45  [ nioEventLoopGroup-3-1:13006 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 20:23:45  [ nioEventLoopGroup-3-1:13010 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 20:23:45  [ nioEventLoopGroup-3-1:13094 ] - [ INFO ]  Decoding
+2015-02-01 20:23:45  [ nioEventLoopGroup-3-1:13115 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:23:45  [ nioEventLoopGroup-3-1:13116 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 20:23:45  [ pool-1-thread-1:13117 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 20:23:46  [ pool-1-thread-1:13442 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 20:23:46  [ nioEventLoopGroup-3-1:13517 ] - [ INFO ]  Encoding... 
+2015-02-01 20:24:16  [ nioEventLoopGroup-3-1:43527 ] - [ INFO ]  At time : 20:24:16 ,to send the PING.
+2015-02-01 20:24:16  [ nioEventLoopGroup-3-1:43528 ] - [ INFO ]  Encoding... 
+2015-02-01 20:24:16  [ nioEventLoopGroup-3-1:43530 ] - [ INFO ]  Decoding
+2015-02-01 20:24:16  [ nioEventLoopGroup-3-1:43531 ] - [ INFO ]  At time : 20:24:16 ,received PONG from client.
+2015-02-01 20:24:19  [ nioEventLoopGroup-3-1:46378 ] - [ INFO ]  Decoding
+2015-02-01 20:29:56  [ nioEventLoopGroup-3-2:383275 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 20:29:56  [ nioEventLoopGroup-3-2:383276 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 20:29:56  [ nioEventLoopGroup-3-2:383390 ] - [ INFO ]  Decoding
+2015-02-01 20:29:56  [ nioEventLoopGroup-3-2:383391 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:29:56  [ nioEventLoopGroup-3-2:383391 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 20:29:56  [ pool-1-thread-2:383392 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 20:29:56  [ pool-1-thread-2:383396 ] - [ INFO ]  the user is User [userId=2, username=yiqian, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 20:29:56  [ nioEventLoopGroup-3-2:383398 ] - [ INFO ]  Encoding... 
+2015-02-01 20:30:20  [ nioEventLoopGroup-3-3:407302 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 20:30:20  [ nioEventLoopGroup-3-3:407303 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 20:30:20  [ nioEventLoopGroup-3-3:407368 ] - [ INFO ]  Decoding
+2015-02-01 20:30:20  [ nioEventLoopGroup-3-3:407369 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:30:20  [ nioEventLoopGroup-3-3:407369 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 20:30:20  [ pool-1-thread-2:407369 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 20:30:20  [ pool-1-thread-2:407370 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 20:30:20  [ nioEventLoopGroup-3-3:407372 ] - [ INFO ]  Encoding... 
+2015-02-01 20:30:20  [ nioEventLoopGroup-3-3:407386 ] - [ INFO ]  Decoding
+2015-02-01 20:30:20  [ nioEventLoopGroup-3-3:407387 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:30:20  [ nioEventLoopGroup-3-3:407387 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 20:30:20  [ nioEventLoopGroup-3-3:408095 ] - [ INFO ]  Encoding... 
+2015-02-01 20:30:20  [ nioEventLoopGroup-3-3:408096 ] - [ INFO ]  Decoding
+2015-02-01 20:30:20  [ nioEventLoopGroup-3-3:408096 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:30:20  [ nioEventLoopGroup-3-3:408096 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 20:30:20  [ nioEventLoopGroup-3-3:408100 ] - [ INFO ]  Encoding... 
+2015-02-01 20:30:26  [ nioEventLoopGroup-3-2:413399 ] - [ INFO ]  At time : 20:30:26 ,to send the PING.
+2015-02-01 20:30:26  [ nioEventLoopGroup-3-2:413400 ] - [ INFO ]  Encoding... 
+2015-02-01 20:30:26  [ nioEventLoopGroup-3-2:413404 ] - [ INFO ]  Decoding
+2015-02-01 20:30:26  [ nioEventLoopGroup-3-2:413405 ] - [ INFO ]  At time : 20:30:26 ,received PONG from client.
+2015-02-01 20:30:50  [ nioEventLoopGroup-3-3:438101 ] - [ INFO ]  At time : 20:30:50 ,to send the PING.
+2015-02-01 20:30:50  [ nioEventLoopGroup-3-3:438101 ] - [ INFO ]  Encoding... 
+2015-02-01 20:30:50  [ nioEventLoopGroup-3-3:438103 ] - [ INFO ]  Decoding
+2015-02-01 20:30:50  [ nioEventLoopGroup-3-3:438103 ] - [ INFO ]  At time : 20:30:50 ,received PONG from client.
+2015-02-01 20:30:56  [ nioEventLoopGroup-3-2:443401 ] - [ INFO ]  At time : 20:30:56 ,to send the PING.
+2015-02-01 20:30:56  [ nioEventLoopGroup-3-2:443401 ] - [ INFO ]  Encoding... 
+2015-02-01 20:30:56  [ nioEventLoopGroup-3-2:443404 ] - [ INFO ]  Decoding
+2015-02-01 20:30:56  [ nioEventLoopGroup-3-2:443405 ] - [ INFO ]  At time : 20:30:56 ,received PONG from client.
+2015-02-01 20:31:14  [ nioEventLoopGroup-3-2:462209 ] - [ INFO ]  Decoding
+2015-02-01 20:31:20  [ nioEventLoopGroup-3-3:468102 ] - [ INFO ]  At time : 20:31:20 ,to send the PING.
+2015-02-01 20:31:20  [ nioEventLoopGroup-3-3:468102 ] - [ INFO ]  Encoding... 
+2015-02-01 20:31:20  [ nioEventLoopGroup-3-3:468104 ] - [ INFO ]  Decoding
+2015-02-01 20:31:20  [ nioEventLoopGroup-3-3:468104 ] - [ INFO ]  At time : 20:31:20 ,received PONG from client.
+2015-02-01 20:31:21  [ nioEventLoopGroup-3-3:469253 ] - [ INFO ]  Decoding
+2015-02-01 20:33:40  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 20:33:40  [ main:4 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 20:33:40  [ main:66 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 20:33:40  [ main:69 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 20:33:45  [ main:4322 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 20:33:45  [ main:4369 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 20:33:56  [ nioEventLoopGroup-3-1:16021 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 20:33:56  [ nioEventLoopGroup-3-1:16036 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 20:33:56  [ nioEventLoopGroup-3-1:16105 ] - [ INFO ]  Decoding
+2015-02-01 20:33:56  [ nioEventLoopGroup-3-1:16134 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:33:56  [ nioEventLoopGroup-3-1:16134 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 20:33:56  [ pool-1-thread-1:16140 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 20:34:02  [ pool-1-thread-1:22110 ] - [ INFO ]  the user is User [userId=2, username=yiqian, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 20:34:03  [ nioEventLoopGroup-3-1:22184 ] - [ INFO ]  Encoding... 
+2015-02-01 20:34:34  [ nioEventLoopGroup-3-1:53822 ] - [ INFO ]  At time : 20:34:34 ,to send the PING.
+2015-02-01 20:34:47  [ nioEventLoopGroup-3-1:66168 ] - [ INFO ]  Encoding... 
+2015-02-01 20:34:49  [ nioEventLoopGroup-3-1:68696 ] - [ INFO ]  Decoding
+2015-02-01 20:34:49  [ nioEventLoopGroup-3-1:68696 ] - [ INFO ]  At time : 20:34:49 ,received PONG from client.
+2015-02-01 20:35:16  [ nioEventLoopGroup-3-1:95228 ] - [ INFO ]  Decoding
+2015-02-01 20:35:23  [ nioEventLoopGroup-3-2:102918 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 20:35:23  [ nioEventLoopGroup-3-2:102919 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 20:35:23  [ nioEventLoopGroup-3-2:103003 ] - [ INFO ]  Decoding
+2015-02-01 20:35:23  [ nioEventLoopGroup-3-2:103003 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:35:23  [ nioEventLoopGroup-3-2:103004 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 20:35:23  [ pool-1-thread-2:103004 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 20:35:59  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 20:35:59  [ main:4 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 20:35:59  [ main:67 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 20:35:59  [ main:70 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 20:36:03  [ main:4331 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 20:36:03  [ main:4375 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 20:36:03  [ hz._hzInstance_1_dev.HealthMonitor:4550 ] - [ INFO ]  [10.108.250.122]:5701 [dev] memory.used=5.8M, memory.free=9.7M, memory.total=15.5M, memory.max=247.5M, memory.used/total=37.25%, memory.used/max=2.33%, load.process=-100.00%, load.system=100.00%, load.systemAverage=-100.00%, thread.count=20, thread.peakCount=21, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.operation.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operation.size=0, executor.q.response.size=0, operations.remote.size=0, operations.running.size=0, proxy.count=0, clientEndpoint.connection.count=0, clientEndpoint.deadconnection.count=0, connection.active.count=0, connection.count=0
+2015-02-01 20:36:08  [ nioEventLoopGroup-3-1:9053 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 20:36:08  [ nioEventLoopGroup-3-1:9064 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 20:36:08  [ nioEventLoopGroup-3-1:9135 ] - [ INFO ]  Decoding
+2015-02-01 20:36:08  [ nioEventLoopGroup-3-1:9166 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:36:08  [ nioEventLoopGroup-3-1:9166 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 20:36:08  [ pool-1-thread-1:9171 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 20:36:08  [ pool-1-thread-1:9410 ] - [ INFO ]  the user is User [userId=2, username=yiqian, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 20:36:08  [ nioEventLoopGroup-3-1:9429 ] - [ INFO ]  Encoding... 
+2015-02-01 20:36:20  [ nioEventLoopGroup-3-2:20876 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 20:36:20  [ nioEventLoopGroup-3-2:20877 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 20:36:20  [ nioEventLoopGroup-3-2:20940 ] - [ INFO ]  Decoding
+2015-02-01 20:36:20  [ nioEventLoopGroup-3-2:20941 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:36:20  [ nioEventLoopGroup-3-2:20941 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 20:36:20  [ pool-1-thread-1:20941 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 20:36:20  [ pool-1-thread-1:20942 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 20:36:20  [ nioEventLoopGroup-3-2:20945 ] - [ INFO ]  Encoding... 
+2015-02-01 20:36:20  [ nioEventLoopGroup-3-2:20959 ] - [ INFO ]  Decoding
+2015-02-01 20:36:20  [ nioEventLoopGroup-3-2:20959 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:36:20  [ nioEventLoopGroup-3-2:20960 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 20:36:38  [ nioEventLoopGroup-3-1:39439 ] - [ INFO ]  At time : 20:36:38 ,to send the PING.
+2015-02-01 20:36:38  [ nioEventLoopGroup-3-1:39439 ] - [ INFO ]  Encoding... 
+2015-02-01 20:36:38  [ nioEventLoopGroup-3-1:39444 ] - [ INFO ]  Decoding
+2015-02-01 20:36:38  [ nioEventLoopGroup-3-1:39444 ] - [ INFO ]  At time : 20:36:38 ,received PONG from client.
+2015-02-01 20:37:08  [ nioEventLoopGroup-3-1:69441 ] - [ INFO ]  At time : 20:37:08 ,to send the PING.
+2015-02-01 20:37:08  [ nioEventLoopGroup-3-1:69441 ] - [ INFO ]  Encoding... 
+2015-02-01 20:37:08  [ nioEventLoopGroup-3-1:69444 ] - [ INFO ]  Decoding
+2015-02-01 20:37:08  [ nioEventLoopGroup-3-1:69444 ] - [ INFO ]  At time : 20:37:08 ,received PONG from client.
+2015-02-01 20:39:46  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 20:39:46  [ main:4 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 20:39:46  [ main:68 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 20:39:46  [ main:76 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 20:39:50  [ main:4327 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 20:39:50  [ main:4372 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 20:39:50  [ nioEventLoopGroup-3-1:4761 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 20:39:51  [ nioEventLoopGroup-3-1:4772 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 20:39:51  [ nioEventLoopGroup-3-1:5151 ] - [ INFO ]  Decoding
+2015-02-01 20:39:51  [ nioEventLoopGroup-3-1:5182 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:39:51  [ nioEventLoopGroup-3-1:5183 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 20:39:51  [ pool-1-thread-1:5187 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 20:39:51  [ pool-1-thread-1:5445 ] - [ INFO ]  the user is User [userId=2, username=yiqian, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 20:39:51  [ nioEventLoopGroup-3-1:5463 ] - [ INFO ]  Encoding... 
+2015-02-01 20:39:58  [ nioEventLoopGroup-3-2:12484 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 20:39:58  [ nioEventLoopGroup-3-2:12484 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 20:39:58  [ nioEventLoopGroup-3-2:12546 ] - [ INFO ]  Decoding
+2015-02-01 20:39:58  [ nioEventLoopGroup-3-2:12547 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:39:58  [ nioEventLoopGroup-3-2:12548 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 20:39:58  [ pool-1-thread-1:12548 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 20:39:58  [ pool-1-thread-1:12549 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 20:39:58  [ nioEventLoopGroup-3-2:12551 ] - [ INFO ]  Encoding... 
+2015-02-01 20:39:58  [ nioEventLoopGroup-3-2:12565 ] - [ INFO ]  Decoding
+2015-02-01 20:39:58  [ nioEventLoopGroup-3-2:12566 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:39:58  [ nioEventLoopGroup-3-2:12566 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 20:40:21  [ nioEventLoopGroup-3-1:35475 ] - [ INFO ]  At time : 20:40:21 ,to send the PING.
+2015-02-01 20:40:21  [ nioEventLoopGroup-3-1:35475 ] - [ INFO ]  Encoding... 
+2015-02-01 20:40:21  [ nioEventLoopGroup-3-1:35480 ] - [ INFO ]  Decoding
+2015-02-01 20:40:21  [ nioEventLoopGroup-3-1:35481 ] - [ INFO ]  At time : 20:40:21 ,received PONG from client.
+2015-02-01 20:40:46  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 20:40:46  [ main:2 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 20:40:46  [ main:59 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 20:40:46  [ main:65 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 20:40:51  [ main:4305 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 20:40:51  [ main:4327 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 20:40:52  [ nioEventLoopGroup-3-1:5535 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 20:40:52  [ nioEventLoopGroup-3-1:5542 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 20:40:52  [ nioEventLoopGroup-3-1:5634 ] - [ INFO ]  Decoding
+2015-02-01 20:40:52  [ nioEventLoopGroup-3-1:5664 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:40:52  [ nioEventLoopGroup-3-1:5664 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 20:40:52  [ pool-1-thread-1:5669 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 20:40:52  [ pool-1-thread-1:5881 ] - [ INFO ]  the user is User [userId=2, username=yiqian, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 20:40:52  [ nioEventLoopGroup-3-1:5893 ] - [ INFO ]  Encoding... 
+2015-02-01 20:40:58  [ nioEventLoopGroup-3-2:11376 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 20:40:58  [ nioEventLoopGroup-3-2:11377 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 20:40:58  [ nioEventLoopGroup-3-2:11440 ] - [ INFO ]  Decoding
+2015-02-01 20:40:58  [ nioEventLoopGroup-3-2:11440 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:40:58  [ nioEventLoopGroup-3-2:11440 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 20:40:58  [ pool-1-thread-1:11441 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 20:40:58  [ pool-1-thread-1:11442 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 20:40:58  [ nioEventLoopGroup-3-2:11445 ] - [ INFO ]  Encoding... 
+2015-02-01 20:40:58  [ nioEventLoopGroup-3-2:11460 ] - [ INFO ]  Decoding
+2015-02-01 20:40:58  [ nioEventLoopGroup-3-2:11460 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:40:58  [ nioEventLoopGroup-3-2:11460 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 20:40:58  [ nioEventLoopGroup-3-2:11464 ] - [ INFO ]  Decoding
+2015-02-01 20:40:58  [ nioEventLoopGroup-3-2:11465 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:40:58  [ nioEventLoopGroup-3-2:11465 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 20:41:22  [ nioEventLoopGroup-3-1:35903 ] - [ INFO ]  At time : 20:41:22 ,to send the PING.
+2015-02-01 20:41:22  [ nioEventLoopGroup-3-1:35904 ] - [ INFO ]  Encoding... 
+2015-02-01 20:41:22  [ nioEventLoopGroup-3-1:35908 ] - [ INFO ]  Decoding
+2015-02-01 20:41:22  [ nioEventLoopGroup-3-1:35908 ] - [ INFO ]  At time : 20:41:22 ,received PONG from client.
+2015-02-01 20:41:28  [ nioEventLoopGroup-3-2:41446 ] - [ INFO ]  At time : 20:41:28 ,to send the PING.
+2015-02-01 20:41:28  [ nioEventLoopGroup-3-2:41446 ] - [ INFO ]  Encoding... 
+2015-02-01 20:41:28  [ nioEventLoopGroup-3-2:41449 ] - [ INFO ]  Decoding
+2015-02-01 20:41:28  [ nioEventLoopGroup-3-2:41449 ] - [ INFO ]  At time : 20:41:28 ,received PONG from client.
+2015-02-01 20:41:52  [ nioEventLoopGroup-3-1:65904 ] - [ INFO ]  At time : 20:41:52 ,to send the PING.
+2015-02-01 20:41:52  [ nioEventLoopGroup-3-1:65904 ] - [ INFO ]  Encoding... 
+2015-02-01 20:41:52  [ nioEventLoopGroup-3-1:65908 ] - [ INFO ]  Decoding
+2015-02-01 20:41:52  [ nioEventLoopGroup-3-1:65908 ] - [ INFO ]  At time : 20:41:52 ,received PONG from client.
+2015-02-01 20:41:58  [ nioEventLoopGroup-3-2:71448 ] - [ INFO ]  At time : 20:41:58 ,to send the PING.
+2015-02-01 20:41:58  [ nioEventLoopGroup-3-2:71448 ] - [ INFO ]  Encoding... 
+2015-02-01 20:41:58  [ nioEventLoopGroup-3-2:71449 ] - [ INFO ]  Decoding
+2015-02-01 20:41:58  [ nioEventLoopGroup-3-2:71450 ] - [ INFO ]  At time : 20:41:58 ,received PONG from client.
+2015-02-01 20:42:30  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 20:42:30  [ main:3 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 20:42:30  [ main:76 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 20:42:30  [ main:80 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 20:42:34  [ main:4324 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 20:42:34  [ main:4359 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 20:42:38  [ nioEventLoopGroup-3-1:8491 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 20:42:38  [ nioEventLoopGroup-3-1:8497 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 20:42:38  [ nioEventLoopGroup-3-1:8582 ] - [ INFO ]  Decoding
+2015-02-01 20:42:38  [ nioEventLoopGroup-3-1:8612 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:42:38  [ nioEventLoopGroup-3-1:8612 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 20:42:38  [ pool-1-thread-1:8614 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 20:42:38  [ pool-1-thread-1:8820 ] - [ INFO ]  the user is User [userId=2, username=yiqian, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 20:42:38  [ nioEventLoopGroup-3-1:8832 ] - [ INFO ]  Encoding... 
+2015-02-01 20:42:43  [ nioEventLoopGroup-3-2:13148 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 20:42:43  [ nioEventLoopGroup-3-2:13148 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 20:42:43  [ nioEventLoopGroup-3-2:13215 ] - [ INFO ]  Decoding
+2015-02-01 20:42:43  [ nioEventLoopGroup-3-2:13215 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:42:43  [ nioEventLoopGroup-3-2:13215 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 20:42:43  [ pool-1-thread-1:13216 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 20:42:43  [ pool-1-thread-1:13217 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 20:42:43  [ nioEventLoopGroup-3-2:13221 ] - [ INFO ]  Encoding... 
+2015-02-01 20:42:43  [ nioEventLoopGroup-3-2:13235 ] - [ INFO ]  Decoding
+2015-02-01 20:42:43  [ nioEventLoopGroup-3-2:13235 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:42:43  [ nioEventLoopGroup-3-2:13236 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 20:42:43  [ nioEventLoopGroup-3-1:13239 ] - [ INFO ]  Encoding... 
+2015-02-01 20:42:43  [ nioEventLoopGroup-3-2:13240 ] - [ INFO ]  Encoding... 
+2015-02-01 20:42:43  [ nioEventLoopGroup-3-2:13240 ] - [ INFO ]  Decoding
+2015-02-01 20:42:43  [ nioEventLoopGroup-3-2:13240 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 20:42:43  [ nioEventLoopGroup-3-2:13241 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 20:42:43  [ nioEventLoopGroup-3-2:13243 ] - [ INFO ]  Encoding... 
+2015-02-01 20:42:43  [ nioEventLoopGroup-3-1:13243 ] - [ INFO ]  Encoding... 
+2015-02-01 20:43:06  [ nioEventLoopGroup-3-2:36156 ] - [ INFO ]  Decoding
+2015-02-01 21:27:14  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 21:27:14  [ main:26 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 21:27:14  [ main:188 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 21:27:14  [ main:196 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 21:27:19  [ main:4520 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 21:27:19  [ main:4604 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 21:30:47  [ main:0 ] - [ INFO ]  [10.108.250.122]:5702 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5702
+2015-02-01 21:30:47  [ main:2 ] - [ INFO ]  [10.108.250.122]:5702 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 21:30:47  [ main:62 ] - [ INFO ]  [10.108.250.122]:5702 [dev] Creating MulticastJoiner
+2015-02-01 21:30:47  [ main:66 ] - [ INFO ]  [10.108.250.122]:5702 [dev] Address[10.108.250.122]:5702 is STARTING
+2015-02-01 21:30:47  [ hz._hzInstance_1_dev.cached.thread-1:233 ] - [ INFO ]  [10.108.250.122]:5702 [dev] Connecting to /10.108.250.122:5701, timeout: 0, bind-any: true
+2015-02-01 21:30:47  [ hz._hzInstance_1_dev.IO.thread-Acceptor:212942 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Accepting socket connection from /10.108.250.122:4084
+2015-02-01 21:30:47  [ hz._hzInstance_1_dev.IO.thread-Acceptor:212945 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 5701 accepted socket connection from /10.108.250.122:4084
+2015-02-01 21:30:47  [ hz._hzInstance_1_dev.cached.thread-1:244 ] - [ INFO ]  [10.108.250.122]:5702 [dev] 4084 accepted socket connection from /10.108.250.122:5701
+2015-02-01 21:30:52  [ hz._hzInstance_1_dev.cached.thread-3:5777 ] - [ INFO ]  [10.108.250.122]:5702 [dev] 
+
+Members [2] {
+	Member [10.108.250.122]:5701
+	Member [10.108.250.122]:5702 this
+}
+
+2015-02-01 21:30:52  [ hz._hzInstance_1_dev.cached.thread-3:218486 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [2] {
+	Member [10.108.250.122]:5701 this
+	Member [10.108.250.122]:5702
+}
+
+2015-02-01 21:30:54  [ main:7288 ] - [ INFO ]  [10.108.250.122]:5702 [dev] Address[10.108.250.122]:5702 is STARTED
+2015-02-01 21:30:54  [ hz._hzInstance_1_dev.HealthMonitor:7447 ] - [ INFO ]  [10.108.250.122]:5702 [dev] memory.used=7.9M, memory.free=7.6M, memory.total=15.5M, memory.max=247.5M, memory.used/total=50.82%, memory.used/max=3.18%, load.process=-100.00%, load.system=100.00%, load.systemAverage=-100.00%, thread.count=24, thread.peakCount=25, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.operation.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operation.size=0, executor.q.response.size=0, operations.remote.size=0, operations.running.size=0, proxy.count=0, clientEndpoint.connection.count=0, clientEndpoint.deadconnection.count=0, connection.active.count=1, connection.count=1
+2015-02-01 21:30:59  [ hz._hzInstance_1_dev.IO.thread-in-0:224783 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connection [Address[10.108.250.122]:5702] lost. Reason: java.io.IOException[远程主机强迫关闭了一个现有的连接。]
+2015-02-01 21:30:59  [ hz._hzInstance_1_dev.IO.thread-in-0:224784 ] - [ WARN ]  [10.108.250.122]:5701 [dev] hz._hzInstance_1_dev.IO.thread-in-0 Closing socket to endpoint Address[10.108.250.122]:5702, Cause:java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2015-02-01 21:30:59  [ hz._hzInstance_1_dev.cached.thread-5:225465 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.122:5702, timeout: 0, bind-any: true
+2015-02-01 21:31:00  [ hz._hzInstance_1_dev.cached.thread-5:226465 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.122:5702. Reason: SocketException[Connection refused: connect to address /10.108.250.122:5702]
+2015-02-01 21:34:51  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 21:34:51  [ main:2 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 21:34:51  [ main:60 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 21:34:51  [ main:65 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 21:34:55  [ main:4314 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 21:34:55  [ main:4350 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 21:35:11  [ hz._hzInstance_1_dev.IO.thread-Acceptor:19572 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Accepting socket connection from /10.108.250.100:53670
+2015-02-01 21:35:11  [ hz._hzInstance_1_dev.IO.thread-Acceptor:19577 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 5701 accepted socket connection from /10.108.250.100:53670
+2015-02-01 21:35:16  [ hz._hzInstance_1_dev.cached.thread-3:25232 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [2] {
+	Member [10.108.250.122]:5701 this
+	Member [10.108.250.100]:5701
+}
+
+2015-02-01 21:36:18  [ hz._hzInstance_1_dev.IO.thread-in-0:87431 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connection [Address[10.108.250.100]:5701] lost. Reason: java.io.IOException[远程主机强迫关闭了一个现有的连接。]
+2015-02-01 21:36:18  [ hz._hzInstance_1_dev.IO.thread-in-0:87432 ] - [ WARN ]  [10.108.250.122]:5701 [dev] hz._hzInstance_1_dev.IO.thread-in-0 Closing socket to endpoint Address[10.108.250.100]:5701, Cause:java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2015-02-01 21:36:19  [ hz._hzInstance_1_dev.cached.thread-3:88181 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 21:36:20  [ hz._hzInstance_1_dev.cached.thread-3:89181 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 21:36:21  [ hz._hzInstance_1_dev.cached.thread-3:90181 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 21:36:22  [ hz._hzInstance_1_dev.cached.thread-3:91182 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 21:36:23  [ hz._hzInstance_1_dev.cached.thread-2:92182 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 21:36:24  [ hz._hzInstance_1_dev.cached.thread-3:93183 ] - [ WARN ]  [10.108.250.122]:5701 [dev] Member [10.108.250.122]:5701 this has no connection to Address[10.108.250.100]:5701
+2015-02-01 21:36:24  [ hz._hzInstance_1_dev.cached.thread-2:93188 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 21:36:24  [ hz._hzInstance_1_dev.cached.thread-2:93189 ] - [ WARN ]  [10.108.250.122]:5701 [dev] Removing connection to endpoint Address[10.108.250.100]:5701 Cause => java.net.SocketException {Connection refused: connect to address /10.108.250.100:5701}, Error-Count: 5
+2015-02-01 21:36:24  [ hz._hzInstance_1_dev.cached.thread-2:93189 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Removing Member [10.108.250.100]:5701
+2015-02-01 21:36:24  [ hz._hzInstance_1_dev.cached.thread-2:93201 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 21:37:00  [ hz._hzInstance_1_dev.IO.thread-Acceptor:128576 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Accepting socket connection from /10.108.250.100:53736
+2015-02-01 21:37:00  [ hz._hzInstance_1_dev.IO.thread-Acceptor:128576 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 5701 accepted socket connection from /10.108.250.100:53736
+2015-02-01 21:37:05  [ hz._hzInstance_1_dev.cached.thread-5:134221 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [2] {
+	Member [10.108.250.122]:5701 this
+	Member [10.108.250.100]:5701
+}
+
+2015-02-01 21:40:23  [ nioEventLoopGroup-3-1:332259 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 21:40:23  [ nioEventLoopGroup-3-1:332410 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 21:40:24  [ nioEventLoopGroup-3-1:332660 ] - [ INFO ]  Decoding
+2015-02-01 21:40:24  [ nioEventLoopGroup-3-1:332794 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:40:24  [ nioEventLoopGroup-3-1:332794 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 21:40:24  [ pool-1-thread-1:332847 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 21:40:25  [ pool-1-thread-1:333544 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 21:40:25  [ nioEventLoopGroup-3-1:333634 ] - [ INFO ]  Encoding... 
+2015-02-01 21:40:48  [ nioEventLoopGroup-3-1:356490 ] - [ INFO ]  Decoding
+2015-02-01 21:41:17  [ nioEventLoopGroup-3-2:385650 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 21:41:17  [ nioEventLoopGroup-3-2:385651 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 21:41:17  [ nioEventLoopGroup-3-2:385719 ] - [ INFO ]  Decoding
+2015-02-01 21:41:17  [ nioEventLoopGroup-3-2:385719 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:41:17  [ nioEventLoopGroup-3-2:385719 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 21:41:17  [ pool-1-thread-1:385719 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 21:41:17  [ pool-1-thread-1:385721 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 21:41:17  [ nioEventLoopGroup-3-2:385722 ] - [ INFO ]  Encoding... 
+2015-02-01 21:41:17  [ nioEventLoopGroup-3-2:385799 ] - [ INFO ]  Decoding
+2015-02-01 21:41:17  [ nioEventLoopGroup-3-2:385799 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:41:17  [ nioEventLoopGroup-3-2:385799 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 21:41:17  [ nioEventLoopGroup-3-2:385882 ] - [ INFO ]  Decoding
+2015-02-01 21:41:17  [ nioEventLoopGroup-3-2:385882 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:41:17  [ nioEventLoopGroup-3-2:385882 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 21:41:47  [ nioEventLoopGroup-3-2:415754 ] - [ INFO ]  At time : 21:41:47 ,to send the PING.
+2015-02-01 21:41:47  [ nioEventLoopGroup-3-2:415755 ] - [ INFO ]  Encoding... 
+2015-02-01 21:41:47  [ nioEventLoopGroup-3-2:415782 ] - [ INFO ]  Decoding
+2015-02-01 21:41:47  [ nioEventLoopGroup-3-2:415783 ] - [ INFO ]  At time : 21:41:47 ,received PONG from client.
+2015-02-01 21:44:15  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 21:44:15  [ main:2 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 21:44:15  [ main:62 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 21:44:15  [ main:67 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 21:44:15  [ hz._hzInstance_1_dev.cached.thread-1:210 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 21:44:15  [ hz._hzInstance_1_dev.cached.thread-1:227 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 4398 accepted socket connection from /10.108.250.100:5701
+2015-02-01 21:44:21  [ hz._hzInstance_1_dev.cached.thread-2:5731 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [2] {
+	Member [10.108.250.100]:5701
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 21:44:22  [ main:7249 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 21:44:29  [ nioEventLoopGroup-3-1:14242 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 21:44:29  [ nioEventLoopGroup-3-1:14246 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 21:44:29  [ nioEventLoopGroup-3-1:14312 ] - [ INFO ]  Decoding
+2015-02-01 21:44:29  [ nioEventLoopGroup-3-1:14332 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:44:29  [ nioEventLoopGroup-3-1:14332 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 21:44:29  [ pool-1-thread-1:14334 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 21:44:29  [ pool-1-thread-1:14560 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 21:44:30  [ nioEventLoopGroup-3-1:14579 ] - [ INFO ]  Encoding... 
+2015-02-01 21:44:30  [ nioEventLoopGroup-3-1:14601 ] - [ INFO ]  Decoding
+2015-02-01 21:44:30  [ nioEventLoopGroup-3-1:14602 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:44:30  [ nioEventLoopGroup-3-1:14602 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 21:44:30  [ nioEventLoopGroup-3-1:14639 ] - [ INFO ]  Decoding
+2015-02-01 21:44:30  [ nioEventLoopGroup-3-1:14639 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:44:30  [ nioEventLoopGroup-3-1:14640 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 21:45:00  [ nioEventLoopGroup-3-1:44589 ] - [ INFO ]  At time : 21:45:00 ,to send the PING.
+2015-02-01 21:45:00  [ nioEventLoopGroup-3-1:44590 ] - [ INFO ]  Encoding... 
+2015-02-01 21:45:00  [ nioEventLoopGroup-3-1:44592 ] - [ INFO ]  Decoding
+2015-02-01 21:45:00  [ nioEventLoopGroup-3-1:44592 ] - [ INFO ]  At time : 21:45:00 ,received PONG from client.
+2015-02-01 21:47:54  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 21:47:54  [ main:22 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 21:47:54  [ main:209 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 21:47:54  [ main:211 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 21:47:54  [ hz._hzInstance_1_dev.cached.thread-1:369 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 21:47:54  [ hz._hzInstance_1_dev.cached.thread-1:386 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 4510 accepted socket connection from /10.108.250.100:5701
+2015-02-01 21:48:00  [ hz._hzInstance_1_dev.cached.thread-3:5890 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [2] {
+	Member [10.108.250.100]:5701
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 21:48:01  [ main:7441 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 21:48:05  [ nioEventLoopGroup-3-1:10888 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 21:48:05  [ nioEventLoopGroup-3-1:10938 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 21:48:05  [ nioEventLoopGroup-3-1:11262 ] - [ INFO ]  Decoding
+2015-02-01 21:48:05  [ nioEventLoopGroup-3-1:11355 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:48:05  [ nioEventLoopGroup-3-1:11356 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 21:48:05  [ pool-1-thread-1:11376 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 21:48:06  [ pool-1-thread-1:12109 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 21:48:06  [ nioEventLoopGroup-3-1:12133 ] - [ INFO ]  Encoding... 
+2015-02-01 21:48:14  [ nioEventLoopGroup-3-1:19974 ] - [ INFO ]  Decoding
+2015-02-01 21:48:17  [ nioEventLoopGroup-3-2:23179 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 21:48:17  [ nioEventLoopGroup-3-2:23180 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 21:48:17  [ nioEventLoopGroup-3-2:23239 ] - [ INFO ]  Decoding
+2015-02-01 21:48:17  [ nioEventLoopGroup-3-2:23240 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:48:17  [ nioEventLoopGroup-3-2:23241 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 21:48:17  [ pool-1-thread-1:23241 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 21:48:17  [ pool-1-thread-1:23242 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 21:48:17  [ nioEventLoopGroup-3-2:23244 ] - [ INFO ]  Encoding... 
+2015-02-01 21:48:17  [ nioEventLoopGroup-3-2:23293 ] - [ INFO ]  Decoding
+2015-02-01 21:48:17  [ nioEventLoopGroup-3-2:23294 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:48:17  [ nioEventLoopGroup-3-2:23294 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 21:48:17  [ nioEventLoopGroup-3-2:23325 ] - [ INFO ]  Decoding
+2015-02-01 21:48:17  [ nioEventLoopGroup-3-2:23326 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:48:17  [ nioEventLoopGroup-3-2:23326 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 21:48:47  [ nioEventLoopGroup-3-2:53269 ] - [ INFO ]  At time : 21:48:47 ,to send the PING.
+2015-02-01 21:48:47  [ nioEventLoopGroup-3-2:53270 ] - [ INFO ]  Encoding... 
+2015-02-01 21:48:47  [ nioEventLoopGroup-3-2:53296 ] - [ INFO ]  Decoding
+2015-02-01 21:48:47  [ nioEventLoopGroup-3-2:53297 ] - [ INFO ]  At time : 21:48:47 ,received PONG from client.
+2015-02-01 21:48:56  [ nioEventLoopGroup-3-2:61648 ] - [ INFO ]  Decoding
+2015-02-01 21:49:24  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 21:49:24  [ main:12 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 21:49:25  [ main:120 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 21:49:25  [ main:124 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 21:49:25  [ hz._hzInstance_1_dev.cached.thread-1:311 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 21:49:25  [ hz._hzInstance_1_dev.cached.thread-1:322 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 4617 accepted socket connection from /10.108.250.100:5701
+2015-02-01 21:49:31  [ hz._hzInstance_1_dev.cached.thread-3:6325 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [2] {
+	Member [10.108.250.100]:5701
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 21:49:32  [ main:7858 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 21:49:49  [ nioEventLoopGroup-3-1:25036 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 21:49:50  [ nioEventLoopGroup-3-1:25053 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 21:49:50  [ nioEventLoopGroup-3-1:25124 ] - [ INFO ]  Decoding
+2015-02-01 21:49:50  [ nioEventLoopGroup-3-1:25149 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:49:50  [ nioEventLoopGroup-3-1:25149 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 21:49:50  [ pool-1-thread-1:25155 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 21:49:50  [ pool-1-thread-1:25440 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 21:49:50  [ nioEventLoopGroup-3-1:25476 ] - [ INFO ]  Encoding... 
+2015-02-01 21:49:50  [ nioEventLoopGroup-3-1:25498 ] - [ INFO ]  Decoding
+2015-02-01 21:49:50  [ nioEventLoopGroup-3-1:25499 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:49:50  [ nioEventLoopGroup-3-1:25499 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 21:51:15  [ nioEventLoopGroup-3-1:110905 ] - [ INFO ]  At time : 21:51:15 ,to send the PING.
+2015-02-01 21:51:15  [ nioEventLoopGroup-3-1:110905 ] - [ INFO ]  Encoding... 
+2015-02-01 21:51:15  [ nioEventLoopGroup-3-1:110911 ] - [ INFO ]  At time : 21:51:15 timeout to rev the PONG. 
+2015-02-01 21:51:15  [ nioEventLoopGroup-3-1:110923 ] - [ INFO ]  the user User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]is about to leave.
+2015-02-01 21:51:15  [ nioEventLoopGroup-3-1:110934 ] - [ INFO ]  Decoding
+2015-02-01 21:53:15  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 21:53:15  [ main:3 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 21:53:15  [ main:65 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 21:53:15  [ main:74 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 21:53:15  [ hz._hzInstance_1_dev.cached.thread-1:231 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 21:53:15  [ hz._hzInstance_1_dev.cached.thread-1:240 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 4712 accepted socket connection from /10.108.250.100:5701
+2015-02-01 21:53:20  [ hz._hzInstance_1_dev.cached.thread-2:5758 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [2] {
+	Member [10.108.250.100]:5701
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 21:53:22  [ main:7281 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 21:53:22  [ hz._hzInstance_1_dev.HealthMonitor:7462 ] - [ INFO ]  [10.108.250.122]:5701 [dev] memory.used=7.1M, memory.free=8.4M, memory.total=15.5M, memory.max=247.5M, memory.used/total=45.53%, memory.used/max=2.85%, load.process=-100.00%, load.system=100.00%, load.systemAverage=-100.00%, thread.count=23, thread.peakCount=24, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.operation.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operation.size=0, executor.q.response.size=0, operations.remote.size=0, operations.running.size=0, proxy.count=0, clientEndpoint.connection.count=0, clientEndpoint.deadconnection.count=0, connection.active.count=1, connection.count=1
+2015-02-01 21:53:31  [ nioEventLoopGroup-3-1:16761 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 21:53:32  [ nioEventLoopGroup-3-1:16790 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 21:53:32  [ nioEventLoopGroup-3-1:16853 ] - [ INFO ]  Decoding
+2015-02-01 21:53:32  [ nioEventLoopGroup-3-1:16884 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:53:32  [ nioEventLoopGroup-3-1:16884 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 21:53:32  [ pool-1-thread-1:16889 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 21:53:32  [ pool-1-thread-1:17158 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 21:53:32  [ nioEventLoopGroup-3-1:17188 ] - [ INFO ]  Encoding... 
+2015-02-01 21:53:32  [ nioEventLoopGroup-3-1:17210 ] - [ INFO ]  Decoding
+2015-02-01 21:53:32  [ nioEventLoopGroup-3-1:17210 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:53:32  [ nioEventLoopGroup-3-1:17210 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 21:54:11  [ nioEventLoopGroup-3-1:55823 ] - [ INFO ]  At time : 21:54:11 ,to send the PING.
+2015-02-01 21:54:11  [ nioEventLoopGroup-3-1:55823 ] - [ INFO ]  Encoding... 
+2015-02-01 21:54:11  [ nioEventLoopGroup-3-1:55827 ] - [ INFO ]  Decoding
+2015-02-01 21:54:11  [ nioEventLoopGroup-3-1:55827 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:54:11  [ nioEventLoopGroup-3-1:55827 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 21:54:12  [ nioEventLoopGroup-3-1:57359 ] - [ INFO ]  Decoding
+2015-02-01 21:54:12  [ nioEventLoopGroup-3-1:57359 ] - [ INFO ]  At time : 21:54:12 ,received PONG from client.
+2015-02-01 21:54:41  [ nioEventLoopGroup-3-1:85828 ] - [ INFO ]  At time : 21:54:41 ,to send the PING.
+2015-02-01 21:54:41  [ nioEventLoopGroup-3-1:85828 ] - [ INFO ]  Encoding... 
+2015-02-01 21:54:41  [ nioEventLoopGroup-3-1:85829 ] - [ INFO ]  Decoding
+2015-02-01 21:54:41  [ nioEventLoopGroup-3-1:85830 ] - [ INFO ]  At time : 21:54:41 ,received PONG from client.
+2015-02-01 21:54:52  [ hz._hzInstance_1_dev.IO.thread-in-0:97001 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connection [Address[10.108.250.100]:5701] lost. Reason: java.io.IOException[远程主机强迫关闭了一个现有的连接。]
+2015-02-01 21:54:52  [ hz._hzInstance_1_dev.IO.thread-in-0:97001 ] - [ WARN ]  [10.108.250.122]:5701 [dev] hz._hzInstance_1_dev.IO.thread-in-0 Closing socket to endpoint Address[10.108.250.100]:5701, Cause:java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2015-02-01 21:54:52  [ hz._hzInstance_1_dev.cached.thread-2:97189 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 21:54:53  [ hz._hzInstance_1_dev.cached.thread-2:98191 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 21:54:54  [ hz._hzInstance_1_dev.cached.thread-5:99191 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 21:54:55  [ hz._hzInstance_1_dev.cached.thread-5:100191 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 21:54:56  [ hz._hzInstance_1_dev.cached.thread-2:101192 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 21:54:57  [ hz._hzInstance_1_dev.cached.thread-2:102192 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 21:54:57  [ hz._hzInstance_1_dev.cached.thread-2:102193 ] - [ WARN ]  [10.108.250.122]:5701 [dev] Removing connection to endpoint Address[10.108.250.100]:5701 Cause => java.net.SocketException {Connection refused: connect to address /10.108.250.100:5701}, Error-Count: 5
+2015-02-01 21:54:57  [ hz._hzInstance_1_dev.cached.thread-4:102193 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 21:54:57  [ hz._hzInstance_1_dev.cached.thread-2:102194 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Master Address[10.108.250.100]:5701 left the cluster. Assigning new master Member [10.108.250.122]:5701 this
+2015-02-01 21:54:57  [ hz._hzInstance_1_dev.cached.thread-2:102195 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Removing Member [10.108.250.100]:5701
+2015-02-01 21:54:57  [ hz._hzInstance_1_dev.cached.thread-2:102200 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 21:54:58  [ hz._hzInstance_1_dev.cached.thread-4:103194 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 21:54:58  [ hz._hzInstance_1_dev.cached.thread-4:103195 ] - [ WARN ]  [10.108.250.122]:5701 [dev] Removing connection to endpoint Address[10.108.250.100]:5701 Cause => java.net.SocketException {Connection refused: connect to address /10.108.250.100:5701}, Error-Count: 6
+2015-02-01 21:55:11  [ nioEventLoopGroup-3-1:115829 ] - [ INFO ]  At time : 21:55:11 ,to send the PING.
+2015-02-01 21:55:11  [ nioEventLoopGroup-3-1:115829 ] - [ INFO ]  Encoding... 
+2015-02-01 21:55:11  [ nioEventLoopGroup-3-1:115831 ] - [ INFO ]  Decoding
+2015-02-01 21:55:11  [ nioEventLoopGroup-3-1:115831 ] - [ INFO ]  At time : 21:55:11 ,received PONG from client.
+2015-02-01 21:55:12  [ hz._hzInstance_1_dev.IO.thread-Acceptor:117211 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Accepting socket connection from /10.108.250.100:53992
+2015-02-01 21:55:12  [ hz._hzInstance_1_dev.IO.thread-Acceptor:117211 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 5701 accepted socket connection from /10.108.250.100:53992
+2015-02-01 21:55:18  [ hz._hzInstance_1_dev.cached.thread-3:122869 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [2] {
+	Member [10.108.250.122]:5701 this
+	Member [10.108.250.100]:5701
+}
+
+2015-02-01 21:55:41  [ nioEventLoopGroup-3-1:145831 ] - [ INFO ]  At time : 21:55:41 ,to send the PING.
+2015-02-01 21:55:41  [ nioEventLoopGroup-3-1:145831 ] - [ INFO ]  Encoding... 
+2015-02-01 21:55:41  [ nioEventLoopGroup-3-1:145832 ] - [ INFO ]  Decoding
+2015-02-01 21:55:41  [ nioEventLoopGroup-3-1:145833 ] - [ INFO ]  At time : 21:55:41 ,received PONG from client.
+2015-02-01 21:56:11  [ nioEventLoopGroup-3-1:175831 ] - [ INFO ]  At time : 21:56:11 ,to send the PING.
+2015-02-01 21:56:11  [ nioEventLoopGroup-3-1:175831 ] - [ INFO ]  Encoding... 
+2015-02-01 21:56:11  [ nioEventLoopGroup-3-1:175833 ] - [ INFO ]  Decoding
+2015-02-01 21:56:11  [ nioEventLoopGroup-3-1:175833 ] - [ INFO ]  At time : 21:56:11 ,received PONG from client.
+2015-02-01 21:56:33  [ hz._hzInstance_1_dev.IO.thread-in-1:198495 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connection [Address[10.108.250.100]:5701] lost. Reason: java.io.IOException[远程主机强迫关闭了一个现有的连接。]
+2015-02-01 21:56:33  [ hz._hzInstance_1_dev.IO.thread-in-1:198495 ] - [ WARN ]  [10.108.250.122]:5701 [dev] hz._hzInstance_1_dev.IO.thread-in-1 Closing socket to endpoint Address[10.108.250.100]:5701, Cause:java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2015-02-01 21:56:34  [ hz._hzInstance_1_dev.cached.thread-3:199280 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 21:56:35  [ hz._hzInstance_1_dev.cached.thread-3:200280 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 21:56:35  [ hz._hzInstance_1_dev.cached.thread-3:200281 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 21:56:36  [ hz._hzInstance_1_dev.cached.thread-3:201281 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 21:56:36  [ hz._hzInstance_1_dev.cached.thread-3:201282 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 21:56:37  [ hz._hzInstance_1_dev.cached.thread-3:202282 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 21:56:37  [ hz._hzInstance_1_dev.cached.thread-3:202283 ] - [ WARN ]  [10.108.250.122]:5701 [dev] Removing connection to endpoint Address[10.108.250.100]:5701 Cause => java.net.SocketException {Connection refused: connect to address /10.108.250.100:5701}, Error-Count: 5
+2015-02-01 21:56:37  [ hz._hzInstance_1_dev.cached.thread-3:202283 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Removing Member [10.108.250.100]:5701
+2015-02-01 21:56:37  [ hz._hzInstance_1_dev.cached.thread-3:202285 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 21:56:41  [ nioEventLoopGroup-3-1:205833 ] - [ INFO ]  At time : 21:56:41 ,to send the PING.
+2015-02-01 21:56:41  [ nioEventLoopGroup-3-1:205833 ] - [ INFO ]  Encoding... 
+2015-02-01 21:56:41  [ nioEventLoopGroup-3-1:205834 ] - [ INFO ]  Decoding
+2015-02-01 21:56:41  [ nioEventLoopGroup-3-1:205835 ] - [ INFO ]  At time : 21:56:41 ,received PONG from client.
+2015-02-01 21:57:11  [ nioEventLoopGroup-3-1:235834 ] - [ INFO ]  At time : 21:57:11 ,to send the PING.
+2015-02-01 21:57:11  [ nioEventLoopGroup-3-1:235834 ] - [ INFO ]  Encoding... 
+2015-02-01 21:57:11  [ nioEventLoopGroup-3-1:235836 ] - [ INFO ]  Decoding
+2015-02-01 21:57:11  [ nioEventLoopGroup-3-1:235836 ] - [ INFO ]  At time : 21:57:11 ,received PONG from client.
+2015-02-01 21:57:41  [ nioEventLoopGroup-3-1:265835 ] - [ INFO ]  At time : 21:57:41 ,to send the PING.
+2015-02-01 21:57:41  [ nioEventLoopGroup-3-1:265835 ] - [ INFO ]  Encoding... 
+2015-02-01 21:57:41  [ nioEventLoopGroup-3-1:265837 ] - [ INFO ]  Decoding
+2015-02-01 21:57:41  [ nioEventLoopGroup-3-1:265837 ] - [ INFO ]  At time : 21:57:41 ,received PONG from client.
+2015-02-01 21:57:42  [ hz._hzInstance_1_dev.IO.thread-Acceptor:267213 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Accepting socket connection from /10.108.250.100:54029
+2015-02-01 21:57:42  [ hz._hzInstance_1_dev.IO.thread-Acceptor:267213 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 5701 accepted socket connection from /10.108.250.100:54029
+2015-02-01 21:57:48  [ hz._hzInstance_1_dev.cached.thread-2:272873 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [2] {
+	Member [10.108.250.122]:5701 this
+	Member [10.108.250.100]:5701
+}
+
+2015-02-01 21:58:11  [ nioEventLoopGroup-3-1:295836 ] - [ INFO ]  At time : 21:58:11 ,to send the PING.
+2015-02-01 21:58:11  [ nioEventLoopGroup-3-1:295836 ] - [ INFO ]  Encoding... 
+2015-02-01 21:58:11  [ nioEventLoopGroup-3-1:295838 ] - [ INFO ]  Decoding
+2015-02-01 21:58:11  [ nioEventLoopGroup-3-1:295838 ] - [ INFO ]  At time : 21:58:11 ,received PONG from client.
+2015-02-01 21:58:45  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 21:58:45  [ main:3 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 21:58:45  [ main:67 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 21:58:45  [ main:70 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 21:58:45  [ hz._hzInstance_1_dev.cached.thread-1:228 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 21:58:46  [ hz._hzInstance_1_dev.cached.thread-1:237 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 4845 accepted socket connection from /10.108.250.100:5701
+2015-02-01 21:58:51  [ hz._hzInstance_1_dev.cached.thread-2:5743 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [2] {
+	Member [10.108.250.100]:5701
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 21:58:53  [ main:7272 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 21:58:53  [ hz._hzInstance_1_dev.HealthMonitor:7434 ] - [ INFO ]  [10.108.250.122]:5701 [dev] memory.used=7.1M, memory.free=8.4M, memory.total=15.5M, memory.max=247.5M, memory.used/total=45.86%, memory.used/max=2.87%, load.process=-100.00%, load.system=100.00%, load.systemAverage=-100.00%, thread.count=23, thread.peakCount=24, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.operation.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operation.size=0, executor.q.response.size=0, operations.remote.size=0, operations.running.size=0, proxy.count=0, clientEndpoint.connection.count=0, clientEndpoint.deadconnection.count=0, connection.active.count=1, connection.count=1
+2015-02-01 21:59:02  [ nioEventLoopGroup-3-1:17162 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 21:59:02  [ nioEventLoopGroup-3-1:17187 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 21:59:03  [ nioEventLoopGroup-3-1:17265 ] - [ INFO ]  Decoding
+2015-02-01 21:59:03  [ nioEventLoopGroup-3-1:17290 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:59:03  [ nioEventLoopGroup-3-1:17290 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 21:59:03  [ pool-1-thread-1:17294 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 21:59:03  [ pool-1-thread-1:17563 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 21:59:03  [ nioEventLoopGroup-3-1:17589 ] - [ INFO ]  Encoding... 
+2015-02-01 21:59:03  [ nioEventLoopGroup-3-1:17610 ] - [ INFO ]  Decoding
+2015-02-01 21:59:03  [ nioEventLoopGroup-3-1:17610 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:59:03  [ nioEventLoopGroup-3-1:17610 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 21:59:06  [ nioEventLoopGroup-3-1:21015 ] - [ INFO ]  Decoding
+2015-02-01 21:59:06  [ nioEventLoopGroup-3-1:21015 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 21:59:06  [ nioEventLoopGroup-3-1:21016 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 21:59:33  [ nioEventLoopGroup-3-1:47600 ] - [ INFO ]  At time : 21:59:33 ,to send the PING.
+2015-02-01 21:59:33  [ nioEventLoopGroup-3-1:47600 ] - [ INFO ]  Encoding... 
+2015-02-01 21:59:33  [ nioEventLoopGroup-3-1:47603 ] - [ INFO ]  Decoding
+2015-02-01 21:59:33  [ nioEventLoopGroup-3-1:47603 ] - [ INFO ]  At time : 21:59:33 ,received PONG from client.
+2015-02-01 22:00:03  [ nioEventLoopGroup-3-1:77602 ] - [ INFO ]  At time : 22:00:03 ,to send the PING.
+2015-02-01 22:00:03  [ nioEventLoopGroup-3-1:77602 ] - [ INFO ]  Encoding... 
+2015-02-01 22:00:03  [ nioEventLoopGroup-3-1:77603 ] - [ INFO ]  Decoding
+2015-02-01 22:00:03  [ nioEventLoopGroup-3-1:77604 ] - [ INFO ]  At time : 22:00:03 ,received PONG from client.
+2015-02-01 22:00:33  [ nioEventLoopGroup-3-1:107602 ] - [ INFO ]  At time : 22:00:33 ,to send the PING.
+2015-02-01 22:00:33  [ nioEventLoopGroup-3-1:107603 ] - [ INFO ]  Encoding... 
+2015-02-01 22:00:33  [ nioEventLoopGroup-3-1:107604 ] - [ INFO ]  Decoding
+2015-02-01 22:00:33  [ nioEventLoopGroup-3-1:107605 ] - [ INFO ]  At time : 22:00:33 ,received PONG from client.
+2015-02-01 22:00:44  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 22:00:44  [ main:4 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 22:00:44  [ main:70 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 22:00:44  [ main:74 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 22:00:44  [ hz._hzInstance_1_dev.cached.thread-1:230 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 22:00:44  [ hz._hzInstance_1_dev.cached.thread-1:240 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 4950 accepted socket connection from /10.108.250.100:5701
+2015-02-01 22:00:50  [ hz._hzInstance_1_dev.cached.thread-3:5745 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [2] {
+	Member [10.108.250.100]:5701
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 22:00:51  [ main:7268 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 22:00:51  [ hz._hzInstance_1_dev.HealthMonitor:7421 ] - [ INFO ]  [10.108.250.122]:5701 [dev] memory.used=7.1M, memory.free=8.4M, memory.total=15.5M, memory.max=247.5M, memory.used/total=45.51%, memory.used/max=2.85%, load.process=-100.00%, load.system=100.00%, load.systemAverage=-100.00%, thread.count=23, thread.peakCount=24, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.operation.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operation.size=0, executor.q.response.size=0, operations.remote.size=0, operations.running.size=0, proxy.count=0, clientEndpoint.connection.count=0, clientEndpoint.deadconnection.count=0, connection.active.count=1, connection.count=1
+2015-02-01 22:01:00  [ nioEventLoopGroup-3-1:16059 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 22:01:00  [ nioEventLoopGroup-3-1:16079 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 22:01:00  [ nioEventLoopGroup-3-1:16134 ] - [ INFO ]  Decoding
+2015-02-01 22:01:00  [ nioEventLoopGroup-3-1:16157 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 22:01:00  [ nioEventLoopGroup-3-1:16157 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 22:01:00  [ pool-1-thread-1:16162 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 22:01:00  [ pool-1-thread-1:16475 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 22:01:01  [ nioEventLoopGroup-3-1:16743 ] - [ INFO ]  Encoding... 
+2015-02-01 22:01:01  [ nioEventLoopGroup-3-1:16773 ] - [ INFO ]  Decoding
+2015-02-01 22:01:01  [ nioEventLoopGroup-3-1:16773 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 22:01:01  [ nioEventLoopGroup-3-1:16773 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 22:01:04  [ nioEventLoopGroup-3-1:20078 ] - [ INFO ]  Decoding
+2015-02-01 22:01:04  [ nioEventLoopGroup-3-1:20079 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 22:01:04  [ nioEventLoopGroup-3-1:20080 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 22:01:31  [ nioEventLoopGroup-3-1:46760 ] - [ INFO ]  At time : 22:01:31 ,to send the PING.
+2015-02-01 22:01:31  [ nioEventLoopGroup-3-1:46760 ] - [ INFO ]  Encoding... 
+2015-02-01 22:01:31  [ nioEventLoopGroup-3-1:46763 ] - [ INFO ]  Decoding
+2015-02-01 22:01:31  [ nioEventLoopGroup-3-1:46763 ] - [ INFO ]  At time : 22:01:31 ,received PONG from client.
+2015-02-01 22:01:41  [ hz._hzInstance_1_dev.IO.thread-in-0:56773 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connection [Address[10.108.250.100]:5701] lost. Reason: java.io.IOException[远程主机强迫关闭了一个现有的连接。]
+2015-02-01 22:01:41  [ hz._hzInstance_1_dev.IO.thread-in-0:56774 ] - [ WARN ]  [10.108.250.122]:5701 [dev] hz._hzInstance_1_dev.IO.thread-in-0 Closing socket to endpoint Address[10.108.250.100]:5701, Cause:java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2015-02-01 22:01:41  [ hz._hzInstance_1_dev.cached.thread-5:57160 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 22:01:42  [ hz._hzInstance_1_dev.cached.thread-5:58163 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 22:01:43  [ hz._hzInstance_1_dev.cached.thread-3:59162 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 22:01:44  [ hz._hzInstance_1_dev.cached.thread-3:60170 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 22:01:45  [ hz._hzInstance_1_dev.cached.thread-5:61163 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 22:01:46  [ hz._hzInstance_1_dev.cached.thread-5:62163 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 22:01:46  [ hz._hzInstance_1_dev.cached.thread-5:62164 ] - [ WARN ]  [10.108.250.122]:5701 [dev] Removing connection to endpoint Address[10.108.250.100]:5701 Cause => java.net.SocketException {Connection refused: connect to address /10.108.250.100:5701}, Error-Count: 5
+2015-02-01 22:01:46  [ hz._hzInstance_1_dev.cached.thread-5:62165 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Master Address[10.108.250.100]:5701 left the cluster. Assigning new master Member [10.108.250.122]:5701 this
+2015-02-01 22:01:46  [ hz._hzInstance_1_dev.cached.thread-5:62165 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Removing Member [10.108.250.100]:5701
+2015-02-01 22:01:46  [ hz._hzInstance_1_dev.cached.thread-5:62170 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 22:01:49  [ nioEventLoopGroup-3-1:64909 ] - [ INFO ]  Decoding
+2015-02-01 22:02:51  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 22:02:51  [ main:2 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 22:02:51  [ main:71 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 22:02:51  [ main:76 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 22:02:51  [ hz._hzInstance_1_dev.cached.thread-1:220 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 22:02:52  [ hz._hzInstance_1_dev.cached.thread-1:237 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 5024 accepted socket connection from /10.108.250.100:5701
+2015-02-01 22:02:57  [ hz._hzInstance_1_dev.cached.thread-2:5763 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [2] {
+	Member [10.108.250.100]:5701
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 22:02:59  [ main:7260 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 22:02:59  [ hz._hzInstance_1_dev.HealthMonitor:7401 ] - [ INFO ]  [10.108.250.122]:5701 [dev] memory.used=7.8M, memory.free=7.7M, memory.total=15.5M, memory.max=247.5M, memory.used/total=50.32%, memory.used/max=3.15%, load.process=-100.00%, load.system=77.00%, load.systemAverage=-100.00%, thread.count=23, thread.peakCount=24, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.operation.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operation.size=0, executor.q.response.size=0, operations.remote.size=0, operations.running.size=0, proxy.count=0, clientEndpoint.connection.count=0, clientEndpoint.deadconnection.count=0, connection.active.count=1, connection.count=1
+2015-02-01 22:03:04  [ nioEventLoopGroup-3-1:12985 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 22:03:04  [ nioEventLoopGroup-3-1:12989 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 22:03:04  [ nioEventLoopGroup-3-1:13047 ] - [ INFO ]  Decoding
+2015-02-01 22:03:04  [ nioEventLoopGroup-3-1:13065 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 22:03:04  [ nioEventLoopGroup-3-1:13066 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 22:03:04  [ pool-1-thread-1:13067 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 22:03:05  [ pool-1-thread-1:13300 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 22:03:05  [ nioEventLoopGroup-3-1:13313 ] - [ INFO ]  Encoding... 
+2015-02-01 22:03:05  [ nioEventLoopGroup-3-1:13335 ] - [ INFO ]  Decoding
+2015-02-01 22:03:05  [ nioEventLoopGroup-3-1:13335 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 22:03:05  [ nioEventLoopGroup-3-1:13335 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 22:03:05  [ nioEventLoopGroup-3-1:13346 ] - [ INFO ]  Decoding
+2015-02-01 22:03:05  [ nioEventLoopGroup-3-1:13346 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 22:03:05  [ nioEventLoopGroup-3-1:13347 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 22:03:34  [ hz._hzInstance_1_dev.IO.thread-in-0:43211 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connection [Address[10.108.250.100]:5701] lost. Reason: java.io.IOException[远程主机强迫关闭了一个现有的连接。]
+2015-02-01 22:03:34  [ hz._hzInstance_1_dev.IO.thread-in-0:43212 ] - [ WARN ]  [10.108.250.122]:5701 [dev] hz._hzInstance_1_dev.IO.thread-in-0 Closing socket to endpoint Address[10.108.250.100]:5701, Cause:java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2015-02-01 22:03:35  [ nioEventLoopGroup-3-1:43323 ] - [ INFO ]  At time : 22:03:35 ,to send the PING.
+2015-02-01 22:03:35  [ nioEventLoopGroup-3-1:43324 ] - [ INFO ]  Encoding... 
+2015-02-01 22:03:35  [ nioEventLoopGroup-3-1:43326 ] - [ INFO ]  Decoding
+2015-02-01 22:03:35  [ nioEventLoopGroup-3-1:43326 ] - [ INFO ]  At time : 22:03:35 ,received PONG from client.
+2015-02-01 22:03:35  [ hz._hzInstance_1_dev.cached.thread-5:44143 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 22:03:36  [ hz._hzInstance_1_dev.cached.thread-5:45143 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 22:03:36  [ hz._hzInstance_1_dev.cached.thread-5:45144 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 22:03:37  [ hz._hzInstance_1_dev.cached.thread-5:46144 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 22:03:37  [ hz._hzInstance_1_dev.cached.thread-5:46145 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 22:03:38  [ hz._hzInstance_1_dev.cached.thread-5:47143 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 22:03:38  [ hz._hzInstance_1_dev.cached.thread-5:47144 ] - [ WARN ]  [10.108.250.122]:5701 [dev] Removing connection to endpoint Address[10.108.250.100]:5701 Cause => java.net.SocketException {Connection refused: connect to address /10.108.250.100:5701}, Error-Count: 5
+2015-02-01 22:03:38  [ hz._hzInstance_1_dev.cached.thread-5:47144 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Master Address[10.108.250.100]:5701 left the cluster. Assigning new master Member [10.108.250.122]:5701 this
+2015-02-01 22:03:38  [ hz._hzInstance_1_dev.cached.thread-5:47145 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Removing Member [10.108.250.100]:5701
+2015-02-01 22:03:38  [ hz._hzInstance_1_dev.cached.thread-5:47149 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 22:04:05  [ nioEventLoopGroup-3-1:73324 ] - [ INFO ]  At time : 22:04:05 ,to send the PING.
+2015-02-01 22:04:05  [ nioEventLoopGroup-3-1:73324 ] - [ INFO ]  Encoding... 
+2015-02-01 22:04:05  [ nioEventLoopGroup-3-1:73326 ] - [ INFO ]  Decoding
+2015-02-01 22:04:05  [ nioEventLoopGroup-3-1:73326 ] - [ INFO ]  At time : 22:04:05 ,received PONG from client.
+2015-02-01 22:04:17  [ hz._hzInstance_1_dev.IO.thread-Acceptor:86202 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Accepting socket connection from /10.108.250.100:54170
+2015-02-01 22:04:17  [ hz._hzInstance_1_dev.IO.thread-Acceptor:86203 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 5701 accepted socket connection from /10.108.250.100:54170
+2015-02-01 22:04:23  [ hz._hzInstance_1_dev.cached.thread-2:91847 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [2] {
+	Member [10.108.250.122]:5701 this
+	Member [10.108.250.100]:5701
+}
+
+2015-02-01 22:04:35  [ nioEventLoopGroup-3-1:103326 ] - [ INFO ]  At time : 22:04:35 ,to send the PING.
+2015-02-01 22:04:35  [ nioEventLoopGroup-3-1:103326 ] - [ INFO ]  Encoding... 
+2015-02-01 22:04:35  [ nioEventLoopGroup-3-1:103327 ] - [ INFO ]  Decoding
+2015-02-01 22:04:35  [ nioEventLoopGroup-3-1:103328 ] - [ INFO ]  At time : 22:04:35 ,received PONG from client.
+2015-02-01 22:04:39  [ nioEventLoopGroup-3-1:107339 ] - [ INFO ]  Decoding
+2015-02-01 22:04:44  [ main:0 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Hazelcast Community Edition 3.1.7 (20140321) starting at Address[10.108.250.122]:5701
+2015-02-01 22:04:44  [ main:2 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Copyright (C) 2008-2014 Hazelcast.com
+2015-02-01 22:04:44  [ main:61 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Creating MulticastJoiner
+2015-02-01 22:04:44  [ main:64 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTING
+2015-02-01 22:04:45  [ hz._hzInstance_1_dev.cached.thread-1:309 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 22:04:45  [ hz._hzInstance_1_dev.cached.thread-1:326 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 5116 accepted socket connection from /10.108.250.100:5701
+2015-02-01 22:04:51  [ hz._hzInstance_1_dev.cached.thread-3:6319 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [2] {
+	Member [10.108.250.100]:5701
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 22:04:52  [ main:7847 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Address[10.108.250.122]:5701 is STARTED
+2015-02-01 22:04:52  [ hz._hzInstance_1_dev.HealthMonitor:7979 ] - [ INFO ]  [10.108.250.122]:5701 [dev] memory.used=7.8M, memory.free=7.7M, memory.total=15.5M, memory.max=247.5M, memory.used/total=50.55%, memory.used/max=3.17%, load.process=-100.00%, load.system=100.00%, load.systemAverage=-100.00%, thread.count=24, thread.peakCount=25, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.operation.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operation.size=0, executor.q.response.size=0, operations.remote.size=0, operations.running.size=0, proxy.count=0, clientEndpoint.connection.count=0, clientEndpoint.deadconnection.count=0, connection.active.count=1, connection.count=1
+2015-02-01 22:04:59  [ nioEventLoopGroup-3-1:15022 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 22:04:59  [ nioEventLoopGroup-3-1:15027 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 22:04:59  [ nioEventLoopGroup-3-1:15096 ] - [ INFO ]  Decoding
+2015-02-01 22:05:00  [ nioEventLoopGroup-3-1:15135 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 22:05:00  [ nioEventLoopGroup-3-1:15135 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 22:05:00  [ pool-1-thread-1:15137 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 22:05:00  [ pool-1-thread-1:15352 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 22:05:00  [ nioEventLoopGroup-3-1:15400 ] - [ INFO ]  Encoding... 
+2015-02-01 22:05:00  [ nioEventLoopGroup-3-1:15421 ] - [ INFO ]  Decoding
+2015-02-01 22:05:00  [ nioEventLoopGroup-3-1:15421 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 22:05:00  [ nioEventLoopGroup-3-1:15421 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 22:05:00  [ nioEventLoopGroup-3-1:15435 ] - [ INFO ]  Decoding
+2015-02-01 22:05:00  [ nioEventLoopGroup-3-1:15435 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 22:05:00  [ nioEventLoopGroup-3-1:15435 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 22:05:30  [ nioEventLoopGroup-3-1:45409 ] - [ INFO ]  At time : 22:05:30 ,to send the PING.
+2015-02-01 22:05:30  [ nioEventLoopGroup-3-1:45410 ] - [ INFO ]  Encoding... 
+2015-02-01 22:05:30  [ nioEventLoopGroup-3-1:45412 ] - [ INFO ]  Decoding
+2015-02-01 22:05:30  [ nioEventLoopGroup-3-1:45412 ] - [ INFO ]  At time : 22:05:30 ,received PONG from client.
+2015-02-01 22:05:47  [ nioEventLoopGroup-3-1:62244 ] - [ INFO ]  Decoding
+2015-02-01 22:05:50  [ nioEventLoopGroup-3-2:66034 ] - [ INFO ]  Init the channel pipeline.
+2015-02-01 22:05:50  [ nioEventLoopGroup-3-2:66034 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-02-01 22:05:50  [ nioEventLoopGroup-3-2:66099 ] - [ INFO ]  Decoding
+2015-02-01 22:05:50  [ nioEventLoopGroup-3-2:66099 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 22:05:50  [ nioEventLoopGroup-3-2:66099 ] - [ INFO ]  process the LoginMsg.
+2015-02-01 22:05:50  [ pool-1-thread-1:66099 ] - [ INFO ]  start run loginTask,congs!
+2015-02-01 22:05:50  [ pool-1-thread-1:66101 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-02-01 22:05:50  [ nioEventLoopGroup-3-2:66103 ] - [ INFO ]  Encoding... 
+2015-02-01 22:05:51  [ nioEventLoopGroup-3-2:66117 ] - [ INFO ]  Decoding
+2015-02-01 22:05:51  [ nioEventLoopGroup-3-2:66117 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 22:05:51  [ nioEventLoopGroup-3-2:66117 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 22:05:51  [ nioEventLoopGroup-3-2:66120 ] - [ INFO ]  Decoding
+2015-02-01 22:05:51  [ nioEventLoopGroup-3-2:66120 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-02-01 22:05:51  [ nioEventLoopGroup-3-2:66120 ] - [ INFO ]  process the ChatMsg.
+2015-02-01 22:06:20  [ nioEventLoopGroup-3-2:96104 ] - [ INFO ]  At time : 22:06:20 ,to send the PING.
+2015-02-01 22:06:20  [ nioEventLoopGroup-3-2:96104 ] - [ INFO ]  Encoding... 
+2015-02-01 22:06:20  [ nioEventLoopGroup-3-2:96107 ] - [ INFO ]  Decoding
+2015-02-01 22:06:20  [ nioEventLoopGroup-3-2:96107 ] - [ INFO ]  At time : 22:06:20 ,received PONG from client.
+2015-02-01 22:06:50  [ nioEventLoopGroup-3-2:126106 ] - [ INFO ]  At time : 22:06:50 ,to send the PING.
+2015-02-01 22:06:50  [ nioEventLoopGroup-3-2:126106 ] - [ INFO ]  Encoding... 
+2015-02-01 22:06:50  [ nioEventLoopGroup-3-2:126107 ] - [ INFO ]  Decoding
+2015-02-01 22:06:50  [ nioEventLoopGroup-3-2:126108 ] - [ INFO ]  At time : 22:06:50 ,received PONG from client.
+2015-02-01 22:07:20  [ nioEventLoopGroup-3-2:156107 ] - [ INFO ]  At time : 22:07:20 ,to send the PING.
+2015-02-01 22:07:20  [ nioEventLoopGroup-3-2:156107 ] - [ INFO ]  Encoding... 
+2015-02-01 22:07:20  [ nioEventLoopGroup-3-2:156109 ] - [ INFO ]  Decoding
+2015-02-01 22:07:20  [ nioEventLoopGroup-3-2:156109 ] - [ INFO ]  At time : 22:07:20 ,received PONG from client.
+2015-02-01 22:07:50  [ nioEventLoopGroup-3-2:186108 ] - [ INFO ]  At time : 22:07:50 ,to send the PING.
+2015-02-01 22:07:50  [ nioEventLoopGroup-3-2:186108 ] - [ INFO ]  Encoding... 
+2015-02-01 22:07:50  [ nioEventLoopGroup-3-2:186109 ] - [ INFO ]  Decoding
+2015-02-01 22:07:50  [ nioEventLoopGroup-3-2:186110 ] - [ INFO ]  At time : 22:07:50 ,received PONG from client.
+2015-02-01 22:08:00  [ hz._hzInstance_1_dev.IO.thread-in-0:195936 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connection [Address[10.108.250.100]:5701] lost. Reason: java.io.IOException[远程主机强迫关闭了一个现有的连接。]
+2015-02-01 22:08:00  [ hz._hzInstance_1_dev.IO.thread-in-0:195937 ] - [ WARN ]  [10.108.250.122]:5701 [dev] hz._hzInstance_1_dev.IO.thread-in-0 Closing socket to endpoint Address[10.108.250.100]:5701, Cause:java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2015-02-01 22:08:01  [ hz._hzInstance_1_dev.cached.thread-5:196250 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 22:08:02  [ hz._hzInstance_1_dev.cached.thread-5:197250 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 22:08:03  [ hz._hzInstance_1_dev.cached.thread-3:198251 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 22:08:04  [ hz._hzInstance_1_dev.cached.thread-3:199261 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 22:08:05  [ hz._hzInstance_1_dev.cached.thread-5:200252 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Connecting to /10.108.250.100:5701, timeout: 0, bind-any: true
+2015-02-01 22:08:06  [ hz._hzInstance_1_dev.cached.thread-5:201253 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Could not connect to: /10.108.250.100:5701. Reason: SocketException[Connection refused: connect to address /10.108.250.100:5701]
+2015-02-01 22:08:06  [ hz._hzInstance_1_dev.cached.thread-5:201254 ] - [ WARN ]  [10.108.250.122]:5701 [dev] Removing connection to endpoint Address[10.108.250.100]:5701 Cause => java.net.SocketException {Connection refused: connect to address /10.108.250.100:5701}, Error-Count: 5
+2015-02-01 22:08:06  [ hz._hzInstance_1_dev.cached.thread-5:201254 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Master Address[10.108.250.100]:5701 left the cluster. Assigning new master Member [10.108.250.122]:5701 this
+2015-02-01 22:08:06  [ hz._hzInstance_1_dev.cached.thread-5:201255 ] - [ INFO ]  [10.108.250.122]:5701 [dev] Removing Member [10.108.250.100]:5701
+2015-02-01 22:08:06  [ hz._hzInstance_1_dev.cached.thread-5:201258 ] - [ INFO ]  [10.108.250.122]:5701 [dev] 
+
+Members [1] {
+	Member [10.108.250.122]:5701 this
+}
+
+2015-02-01 22:08:20  [ nioEventLoopGroup-3-2:216110 ] - [ INFO ]  At time : 22:08:20 ,to send the PING.
+2015-02-01 22:08:20  [ nioEventLoopGroup-3-2:216110 ] - [ INFO ]  Encoding... 
+2015-02-01 22:08:20  [ nioEventLoopGroup-3-2:216111 ] - [ INFO ]  Decoding
+2015-02-01 22:08:20  [ nioEventLoopGroup-3-2:216112 ] - [ INFO ]  At time : 22:08:20 ,received PONG from client.
+2015-02-01 22:08:50  [ nioEventLoopGroup-3-2:246111 ] - [ INFO ]  At time : 22:08:50 ,to send the PING.
+2015-02-01 22:08:50  [ nioEventLoopGroup-3-2:246111 ] - [ INFO ]  Encoding... 
+2015-02-01 22:08:50  [ nioEventLoopGroup-3-2:246113 ] - [ INFO ]  Decoding
+2015-02-01 22:08:50  [ nioEventLoopGroup-3-2:246113 ] - [ INFO ]  At time : 22:08:50 ,received PONG from client.
+2015-02-01 22:09:20  [ nioEventLoopGroup-3-2:276112 ] - [ INFO ]  At time : 22:09:20 ,to send the PING.
+2015-02-01 22:09:20  [ nioEventLoopGroup-3-2:276112 ] - [ INFO ]  Encoding... 
+2015-02-01 22:09:20  [ nioEventLoopGroup-3-2:276113 ] - [ INFO ]  Decoding
+2015-02-01 22:09:20  [ nioEventLoopGroup-3-2:276114 ] - [ INFO ]  At time : 22:09:20 ,received PONG from client.
+2015-02-01 22:09:50  [ nioEventLoopGroup-3-2:306113 ] - [ INFO ]  At time : 22:09:50 ,to send the PING.
+2015-02-01 22:09:50  [ nioEventLoopGroup-3-2:306113 ] - [ INFO ]  Encoding... 
+2015-02-01 22:09:51  [ nioEventLoopGroup-3-2:306115 ] - [ INFO ]  Decoding
+2015-02-01 22:09:51  [ nioEventLoopGroup-3-2:306115 ] - [ INFO ]  At time : 22:09:51 ,received PONG from client.
+2015-02-01 22:10:10  [ nioEventLoopGroup-3-2:326045 ] - [ INFO ]  Decoding

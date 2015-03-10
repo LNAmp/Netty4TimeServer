@@ -1,0 +1,617 @@
+2015-01-05 21:57:12  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-05 21:57:12  [ main:53 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-05 21:57:12  [ main:97 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-05 21:57:12  [ main:111 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-05 21:57:12  [ main:112 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-05 21:57:12  [ main:112 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-05 21:57:12  [ main:112 ] - [ DEBUG ]  Platform: Windows
+2015-01-05 21:57:12  [ main:113 ] - [ DEBUG ]  Java version: 7
+2015-01-05 21:57:12  [ main:113 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-05 21:57:12  [ main:113 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-05 21:57:12  [ main:120 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-05 21:57:12  [ main:121 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-05 21:57:12  [ main:121 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-05 21:57:12  [ main:121 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-05 21:57:12  [ main:122 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-05 21:57:12  [ main:122 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-05 21:57:12  [ main:227 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-05 21:57:12  [ main:227 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-05 21:57:12  [ main:392 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0xd873ce2b7415d0b9 (took 89 ms)
+2015-01-05 21:57:13  [ main:482 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-05 21:57:13  [ main:483 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-05 21:57:13  [ main:549 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-05 21:57:13  [ main:550 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-01-05 21:57:13  [ nioEventLoopGroup-2-1:689 ] - [ INFO ]  [id: 0x95891214] REGISTERED
+2015-01-05 21:57:13  [ nioEventLoopGroup-2-1:691 ] - [ INFO ]  [id: 0x95891214] BIND(0.0.0.0/0.0.0.0:8007)
+2015-01-05 21:57:13  [ nioEventLoopGroup-2-1:693 ] - [ INFO ]  [id: 0x95891214, /0:0:0:0:0:0:0:0:8007] ACTIVE
+2015-01-05 21:57:56  [ nioEventLoopGroup-2-1:43874 ] - [ INFO ]  [id: 0x95891214, /0:0:0:0:0:0:0:0:8007] RECEIVED: [id: 0xddb767ff, /127.0.0.1:41202 => /127.0.0.1:8007]
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43902 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43904 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43905 ] - [ INFO ]  Receiving a byte : 0
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43906 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43941 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43941 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43941 ] - [ INFO ]  Receiving a byte : 1
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43941 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43941 ] - [ INFO ]  Receiving a byte : 2
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43942 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43942 ] - [ INFO ]  Receiving a byte : 3
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43942 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43942 ] - [ INFO ]  Receiving a byte : 4
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43943 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43943 ] - [ INFO ]  Receiving a byte : 5
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43943 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43943 ] - [ INFO ]  Receiving a byte : 6
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43943 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43943 ] - [ INFO ]  Receiving a byte : 7
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43944 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43944 ] - [ INFO ]  Receiving a byte : 8
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43944 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43944 ] - [ INFO ]  Receiving a byte : 9
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43944 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43944 ] - [ INFO ]  Receiving a byte : 10
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43945 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43945 ] - [ INFO ]  Receiving a byte : 11
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43945 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43945 ] - [ INFO ]  Receiving a byte : 12
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43945 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43945 ] - [ INFO ]  Receiving a byte : 13
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43946 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43946 ] - [ INFO ]  Receiving a byte : 14
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43946 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43946 ] - [ INFO ]  Receiving a byte : 15
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43948 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43949 ] - [ INFO ]  Receiving a byte : 16
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43949 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43949 ] - [ INFO ]  Receiving a byte : 17
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43949 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43950 ] - [ INFO ]  Receiving a byte : 18
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43950 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43950 ] - [ INFO ]  Receiving a byte : 19
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43950 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43950 ] - [ INFO ]  Receiving a byte : 20
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43951 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43951 ] - [ INFO ]  Receiving a byte : 21
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43951 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43951 ] - [ INFO ]  Receiving a byte : 22
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43951 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43952 ] - [ INFO ]  Receiving a byte : 23
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43952 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43952 ] - [ INFO ]  Receiving a byte : 24
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43952 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43952 ] - [ INFO ]  Receiving a byte : 25
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43953 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43953 ] - [ INFO ]  Receiving a byte : 26
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43957 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43957 ] - [ INFO ]  Receiving a byte : 27
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43958 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43958 ] - [ INFO ]  Receiving a byte : 28
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43958 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43959 ] - [ INFO ]  Receiving a byte : 29
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43959 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43959 ] - [ INFO ]  Receiving a byte : 30
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43959 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43959 ] - [ INFO ]  Receiving a byte : 31
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43959 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43960 ] - [ INFO ]  Receiving a byte : 32
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43960 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43960 ] - [ INFO ]  Receiving a byte : 33
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43960 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43960 ] - [ INFO ]  Receiving a byte : 34
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43961 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43961 ] - [ INFO ]  Receiving a byte : 35
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43961 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43961 ] - [ INFO ]  Receiving a byte : 36
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43961 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43961 ] - [ INFO ]  Receiving a byte : 37
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43962 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43962 ] - [ INFO ]  Receiving a byte : 38
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43962 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43962 ] - [ INFO ]  Receiving a byte : 39
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43962 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43962 ] - [ INFO ]  Receiving a byte : 40
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43963 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43963 ] - [ INFO ]  Receiving a byte : 41
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43965 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43966 ] - [ INFO ]  Receiving a byte : 42
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43966 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43966 ] - [ INFO ]  Receiving a byte : 43
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43966 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43966 ] - [ INFO ]  Receiving a byte : 44
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43967 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43967 ] - [ INFO ]  Receiving a byte : 45
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43967 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43967 ] - [ INFO ]  Receiving a byte : 46
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43967 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43967 ] - [ INFO ]  Receiving a byte : 47
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43968 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43968 ] - [ INFO ]  Receiving a byte : 48
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43968 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43968 ] - [ INFO ]  Receiving a byte : 49
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43968 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43968 ] - [ INFO ]  Receiving a byte : 50
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43969 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43969 ] - [ INFO ]  Receiving a byte : 51
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43969 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43969 ] - [ INFO ]  Receiving a byte : 52
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43969 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43969 ] - [ INFO ]  Receiving a byte : 53
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43970 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43970 ] - [ INFO ]  Receiving a byte : 54
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43970 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43970 ] - [ INFO ]  Receiving a byte : 55
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43970 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43970 ] - [ INFO ]  Receiving a byte : 56
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43971 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43971 ] - [ INFO ]  Receiving a byte : 57
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43971 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43975 ] - [ INFO ]  Receiving a byte : 58
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43975 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43975 ] - [ INFO ]  Receiving a byte : 59
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43976 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43976 ] - [ INFO ]  Receiving a byte : 60
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43976 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43976 ] - [ INFO ]  Receiving a byte : 61
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43976 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43976 ] - [ INFO ]  Receiving a byte : 62
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43977 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43977 ] - [ INFO ]  Receiving a byte : 63
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43977 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43977 ] - [ INFO ]  Receiving a byte : 64
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43977 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43977 ] - [ INFO ]  Receiving a byte : 65
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43978 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43978 ] - [ INFO ]  Receiving a byte : 66
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43978 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43978 ] - [ INFO ]  Receiving a byte : 67
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43978 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43978 ] - [ INFO ]  Receiving a byte : 68
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43979 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43979 ] - [ INFO ]  Receiving a byte : 69
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43979 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43979 ] - [ INFO ]  Receiving a byte : 70
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43979 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43979 ] - [ INFO ]  Receiving a byte : 71
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43979 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43980 ] - [ INFO ]  Receiving a byte : 72
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43980 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43980 ] - [ INFO ]  Receiving a byte : 73
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43980 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43980 ] - [ INFO ]  Receiving a byte : 74
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43980 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43981 ] - [ INFO ]  Receiving a byte : 75
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43981 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43981 ] - [ INFO ]  Receiving a byte : 76
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43981 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43981 ] - [ INFO ]  Receiving a byte : 77
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43981 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43981 ] - [ INFO ]  Receiving a byte : 78
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43982 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43982 ] - [ INFO ]  Receiving a byte : 79
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43982 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43982 ] - [ INFO ]  Receiving a byte : 80
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43982 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43982 ] - [ INFO ]  Receiving a byte : 81
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43983 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43983 ] - [ INFO ]  Receiving a byte : 82
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43983 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43983 ] - [ INFO ]  Receiving a byte : 83
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43984 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43984 ] - [ INFO ]  Receiving a byte : 84
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43984 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43984 ] - [ INFO ]  Receiving a byte : 85
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43984 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43984 ] - [ INFO ]  Receiving a byte : 86
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43984 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43985 ] - [ INFO ]  Receiving a byte : 87
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43985 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43985 ] - [ INFO ]  Receiving a byte : 88
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43985 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43985 ] - [ INFO ]  Receiving a byte : 89
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43985 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43985 ] - [ INFO ]  Receiving a byte : 90
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43986 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43986 ] - [ INFO ]  Receiving a byte : 91
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43986 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43986 ] - [ INFO ]  Receiving a byte : 92
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43986 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43986 ] - [ INFO ]  Receiving a byte : 93
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43987 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43987 ] - [ INFO ]  Receiving a byte : 94
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43987 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43987 ] - [ INFO ]  Receiving a byte : 95
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43987 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43987 ] - [ INFO ]  Receiving a byte : 96
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43988 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43988 ] - [ INFO ]  Receiving a byte : 97
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43988 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43988 ] - [ INFO ]  Receiving a byte : 98
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43988 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43989 ] - [ INFO ]  Receiving a byte : 99
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43989 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43989 ] - [ INFO ]  Receiving a byte : 100
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43989 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43989 ] - [ INFO ]  Receiving a byte : 101
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43989 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43989 ] - [ INFO ]  Receiving a byte : 102
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43990 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43990 ] - [ INFO ]  Receiving a byte : 103
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43990 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43990 ] - [ INFO ]  Receiving a byte : 104
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43990 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43991 ] - [ INFO ]  Receiving a byte : 105
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43991 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43991 ] - [ INFO ]  Receiving a byte : 106
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43991 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43992 ] - [ INFO ]  Receiving a byte : 107
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43992 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43992 ] - [ INFO ]  Receiving a byte : 108
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43992 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43992 ] - [ INFO ]  Receiving a byte : 109
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43993 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43993 ] - [ INFO ]  Receiving a byte : 110
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43993 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43993 ] - [ INFO ]  Receiving a byte : 111
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43994 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43994 ] - [ INFO ]  Receiving a byte : 112
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43994 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43994 ] - [ INFO ]  Receiving a byte : 113
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43994 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43995 ] - [ INFO ]  Receiving a byte : 114
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43995 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43995 ] - [ INFO ]  Receiving a byte : 115
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43995 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43995 ] - [ INFO ]  Receiving a byte : 116
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43996 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43996 ] - [ INFO ]  Receiving a byte : 117
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43996 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43996 ] - [ INFO ]  Receiving a byte : 118
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43996 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43996 ] - [ INFO ]  Receiving a byte : 119
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43997 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43997 ] - [ INFO ]  Receiving a byte : 120
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43997 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43997 ] - [ INFO ]  Receiving a byte : 121
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43998 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43998 ] - [ INFO ]  Receiving a byte : 122
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43998 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43998 ] - [ INFO ]  Receiving a byte : 123
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43998 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43998 ] - [ INFO ]  Receiving a byte : 124
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43998 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43998 ] - [ INFO ]  Receiving a byte : 125
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43999 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43999 ] - [ INFO ]  Receiving a byte : 126
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43999 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43999 ] - [ INFO ]  Receiving a byte : 127
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:43999 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44000 ] - [ INFO ]  Receiving a byte : -128
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44000 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44000 ] - [ INFO ]  Receiving a byte : -127
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44000 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44000 ] - [ INFO ]  Receiving a byte : -126
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44000 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44001 ] - [ INFO ]  Receiving a byte : -125
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44001 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44001 ] - [ INFO ]  Receiving a byte : -124
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44001 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44001 ] - [ INFO ]  Receiving a byte : -123
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44001 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44002 ] - [ INFO ]  Receiving a byte : -122
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44002 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44002 ] - [ INFO ]  Receiving a byte : -121
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44002 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44002 ] - [ INFO ]  Receiving a byte : -120
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44003 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44003 ] - [ INFO ]  Receiving a byte : -119
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44003 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44003 ] - [ INFO ]  Receiving a byte : -118
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44003 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44003 ] - [ INFO ]  Receiving a byte : -117
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44004 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44004 ] - [ INFO ]  Receiving a byte : -116
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44004 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44004 ] - [ INFO ]  Receiving a byte : -115
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44004 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44004 ] - [ INFO ]  Receiving a byte : -114
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44005 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44005 ] - [ INFO ]  Receiving a byte : -113
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44005 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44005 ] - [ INFO ]  Receiving a byte : -112
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44005 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44005 ] - [ INFO ]  Receiving a byte : -111
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44006 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44006 ] - [ INFO ]  Receiving a byte : -110
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44006 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44006 ] - [ INFO ]  Receiving a byte : -109
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44006 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44006 ] - [ INFO ]  Receiving a byte : -108
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44007 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44007 ] - [ INFO ]  Receiving a byte : -107
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44007 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44007 ] - [ INFO ]  Receiving a byte : -106
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44007 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44008 ] - [ INFO ]  Receiving a byte : -105
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44008 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44008 ] - [ INFO ]  Receiving a byte : -104
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44008 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44008 ] - [ INFO ]  Receiving a byte : -103
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44009 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44009 ] - [ INFO ]  Receiving a byte : -102
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44009 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44009 ] - [ INFO ]  Receiving a byte : -101
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44009 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44009 ] - [ INFO ]  Receiving a byte : -100
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44010 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44010 ] - [ INFO ]  Receiving a byte : -99
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44010 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44010 ] - [ INFO ]  Receiving a byte : -98
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44011 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44011 ] - [ INFO ]  Receiving a byte : -97
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44011 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44011 ] - [ INFO ]  Receiving a byte : -96
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44012 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44012 ] - [ INFO ]  Receiving a byte : -95
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44012 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44012 ] - [ INFO ]  Receiving a byte : -94
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44013 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44013 ] - [ INFO ]  Receiving a byte : -93
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44014 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44014 ] - [ INFO ]  Receiving a byte : -92
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44015 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44015 ] - [ INFO ]  Receiving a byte : -91
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44015 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44016 ] - [ INFO ]  Receiving a byte : -90
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44016 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44016 ] - [ INFO ]  Receiving a byte : -89
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44016 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44017 ] - [ INFO ]  Receiving a byte : -88
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44017 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44017 ] - [ INFO ]  Receiving a byte : -87
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44017 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44018 ] - [ INFO ]  Receiving a byte : -86
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44018 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44018 ] - [ INFO ]  Receiving a byte : -85
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44018 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44018 ] - [ INFO ]  Receiving a byte : -84
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44019 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44019 ] - [ INFO ]  Receiving a byte : -83
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44019 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44020 ] - [ INFO ]  Receiving a byte : -82
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44020 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44020 ] - [ INFO ]  Receiving a byte : -81
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44021 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44021 ] - [ INFO ]  Receiving a byte : -80
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44021 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44021 ] - [ INFO ]  Receiving a byte : -79
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44021 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44022 ] - [ INFO ]  Receiving a byte : -78
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44022 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44022 ] - [ INFO ]  Receiving a byte : -77
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44022 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44022 ] - [ INFO ]  Receiving a byte : -76
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44023 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44023 ] - [ INFO ]  Receiving a byte : -75
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44023 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44023 ] - [ INFO ]  Receiving a byte : -74
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44024 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44024 ] - [ INFO ]  Receiving a byte : -73
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44024 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44024 ] - [ INFO ]  Receiving a byte : -72
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44025 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44025 ] - [ INFO ]  Receiving a byte : -71
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44025 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44025 ] - [ INFO ]  Receiving a byte : -70
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44025 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44026 ] - [ INFO ]  Receiving a byte : -69
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44026 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44026 ] - [ INFO ]  Receiving a byte : -68
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44026 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44026 ] - [ INFO ]  Receiving a byte : -67
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44027 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44027 ] - [ INFO ]  Receiving a byte : -66
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44027 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44027 ] - [ INFO ]  Receiving a byte : -65
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44028 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44028 ] - [ INFO ]  Receiving a byte : -64
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44028 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44028 ] - [ INFO ]  Receiving a byte : -63
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44029 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44029 ] - [ INFO ]  Receiving a byte : -62
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44029 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44029 ] - [ INFO ]  Receiving a byte : -61
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44030 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44030 ] - [ INFO ]  Receiving a byte : -60
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44030 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44030 ] - [ INFO ]  Receiving a byte : -59
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44031 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44031 ] - [ INFO ]  Receiving a byte : -58
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44031 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44031 ] - [ INFO ]  Receiving a byte : -57
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44032 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44032 ] - [ INFO ]  Receiving a byte : -56
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44032 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44032 ] - [ INFO ]  Receiving a byte : -55
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44032 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44032 ] - [ INFO ]  Receiving a byte : -54
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44033 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44033 ] - [ INFO ]  Receiving a byte : -53
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44033 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44033 ] - [ INFO ]  Receiving a byte : -52
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44034 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44034 ] - [ INFO ]  Receiving a byte : -51
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44034 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44034 ] - [ INFO ]  Receiving a byte : -50
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44035 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44035 ] - [ INFO ]  Receiving a byte : -49
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44035 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44035 ] - [ INFO ]  Receiving a byte : -48
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44036 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44036 ] - [ INFO ]  Receiving a byte : -47
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44036 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44037 ] - [ INFO ]  Receiving a byte : -46
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44037 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44037 ] - [ INFO ]  Receiving a byte : -45
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44038 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44038 ] - [ INFO ]  Receiving a byte : -44
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44038 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44038 ] - [ INFO ]  Receiving a byte : -43
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44038 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44038 ] - [ INFO ]  Receiving a byte : -42
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44039 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44039 ] - [ INFO ]  Receiving a byte : -41
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44039 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44039 ] - [ INFO ]  Receiving a byte : -40
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44040 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44040 ] - [ INFO ]  Receiving a byte : -39
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44040 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44040 ] - [ INFO ]  Receiving a byte : -38
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44040 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44040 ] - [ INFO ]  Receiving a byte : -37
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44041 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44041 ] - [ INFO ]  Receiving a byte : -36
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44041 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44041 ] - [ INFO ]  Receiving a byte : -35
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44042 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44042 ] - [ INFO ]  Receiving a byte : -34
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44042 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44042 ] - [ INFO ]  Receiving a byte : -33
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44042 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44043 ] - [ INFO ]  Receiving a byte : -32
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44043 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44043 ] - [ INFO ]  Receiving a byte : -31
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44043 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44043 ] - [ INFO ]  Receiving a byte : -30
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44044 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44044 ] - [ INFO ]  Receiving a byte : -29
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44045 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44045 ] - [ INFO ]  Receiving a byte : -28
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44045 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44045 ] - [ INFO ]  Receiving a byte : -27
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44045 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44046 ] - [ INFO ]  Receiving a byte : -26
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44046 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44046 ] - [ INFO ]  Receiving a byte : -25
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44046 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44046 ] - [ INFO ]  Receiving a byte : -24
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44047 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44047 ] - [ INFO ]  Receiving a byte : -23
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44048 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44048 ] - [ INFO ]  Receiving a byte : -22
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44049 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44049 ] - [ INFO ]  Receiving a byte : -21
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44049 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44049 ] - [ INFO ]  Receiving a byte : -20
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44050 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44050 ] - [ INFO ]  Receiving a byte : -19
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44050 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44050 ] - [ INFO ]  Receiving a byte : -18
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44051 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44051 ] - [ INFO ]  Receiving a byte : -17
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44051 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44051 ] - [ INFO ]  Receiving a byte : -16
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44052 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44052 ] - [ INFO ]  Receiving a byte : -15
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44052 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44052 ] - [ INFO ]  Receiving a byte : -14
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44053 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44053 ] - [ INFO ]  Receiving a byte : -13
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44053 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44053 ] - [ INFO ]  Receiving a byte : -12
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44053 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44054 ] - [ INFO ]  Receiving a byte : -11
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44054 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44054 ] - [ INFO ]  Receiving a byte : -10
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44054 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44054 ] - [ INFO ]  Receiving a byte : -9
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44055 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44055 ] - [ INFO ]  Receiving a byte : -8
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44055 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44055 ] - [ INFO ]  Receiving a byte : -7
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44056 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44056 ] - [ INFO ]  Receiving a byte : -6
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44056 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44056 ] - [ INFO ]  Receiving a byte : -5
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44057 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44057 ] - [ INFO ]  Receiving a byte : -4
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44057 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44057 ] - [ INFO ]  Receiving a byte : -3
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44057 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44058 ] - [ INFO ]  Receiving a byte : -2
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44058 ] - [ INFO ]  Msg is incoming!
+2015-01-05 21:57:56  [ nioEventLoopGroup-3-1:44058 ] - [ INFO ]  Receiving a byte : -1
+2015-01-05 22:33:15  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-05 22:33:15  [ main:71 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-05 22:33:15  [ main:135 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-05 22:33:15  [ main:142 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-05 22:33:15  [ main:142 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-05 22:33:15  [ main:143 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-05 22:33:15  [ main:143 ] - [ DEBUG ]  Platform: Windows
+2015-01-05 22:33:15  [ main:166 ] - [ DEBUG ]  Java version: 7
+2015-01-05 22:33:15  [ main:166 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-05 22:33:15  [ main:166 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-05 22:33:15  [ main:167 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-05 22:33:15  [ main:168 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-05 22:33:15  [ main:168 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-05 22:33:15  [ main:168 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-05 22:33:15  [ main:170 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-05 22:33:15  [ main:170 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-05 22:33:15  [ main:308 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-05 22:33:15  [ main:308 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-05 22:40:27  [ main:432782 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0xb60439b6e6e17f6b (took 33 ms)
+2015-01-05 22:40:28  [ main:432867 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-05 22:40:28  [ main:432867 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-05 22:40:28  [ main:432935 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-05 22:40:28  [ main:432935 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-01-05 22:40:28  [ nioEventLoopGroup-2-1:432988 ] - [ INFO ]  [id: 0xff4bd006] REGISTERED
+2015-01-05 22:40:28  [ nioEventLoopGroup-2-1:432989 ] - [ INFO ]  [id: 0xff4bd006] BIND(0.0.0.0/0.0.0.0:8007)
+2015-01-05 22:40:28  [ nioEventLoopGroup-2-1:432991 ] - [ INFO ]  [id: 0xff4bd006, /0:0:0:0:0:0:0:0:8007] ACTIVE
+2015-01-05 22:41:11  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-05 22:41:11  [ main:5 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-05 22:41:11  [ main:13 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-05 22:41:11  [ main:15 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-05 22:41:11  [ main:15 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-05 22:41:11  [ main:16 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-05 22:41:11  [ main:16 ] - [ DEBUG ]  Platform: Windows
+2015-01-05 22:41:11  [ main:16 ] - [ DEBUG ]  Java version: 7
+2015-01-05 22:41:11  [ main:16 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-05 22:41:11  [ main:17 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-05 22:41:11  [ main:17 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-05 22:41:11  [ main:18 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-05 22:41:11  [ main:18 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-05 22:41:11  [ main:18 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-05 22:41:11  [ main:18 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-05 22:41:11  [ main:19 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-05 22:41:11  [ main:47 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-05 22:41:11  [ main:47 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-05 22:41:19  [ main:7542 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0xd6e952fed74edc54 (took 9 ms)
+2015-01-05 22:41:19  [ main:7583 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-05 22:41:19  [ main:7584 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-05 22:41:19  [ main:7644 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-05 22:41:19  [ main:7645 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-01-05 22:41:19  [ nioEventLoopGroup-2-1:7682 ] - [ INFO ]  [id: 0x3345e66a] REGISTERED
+2015-01-05 22:41:19  [ nioEventLoopGroup-2-1:7683 ] - [ INFO ]  [id: 0x3345e66a] BIND(0.0.0.0/0.0.0.0:8007)
+2015-01-05 22:41:19  [ nioEventLoopGroup-2-1:7685 ] - [ INFO ]  [id: 0x3345e66a, /0:0:0:0:0:0:0:0:8007] ACTIVE
+2015-01-05 23:13:06  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-05 23:13:06  [ main:41 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-05 23:13:06  [ main:115 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-05 23:13:06  [ main:135 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-05 23:13:06  [ main:136 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-05 23:13:06  [ main:136 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-05 23:13:06  [ main:137 ] - [ DEBUG ]  Platform: Windows
+2015-01-05 23:13:06  [ main:138 ] - [ DEBUG ]  Java version: 7
+2015-01-05 23:13:06  [ main:138 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-05 23:13:06  [ main:138 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-05 23:13:06  [ main:139 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-05 23:13:06  [ main:141 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-05 23:13:06  [ main:141 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-05 23:13:06  [ main:141 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-05 23:13:06  [ main:143 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-05 23:13:06  [ main:143 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-05 23:13:07  [ main:282 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-05 23:13:07  [ main:282 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-05 23:13:17  [ main:10479 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0x3465cc9728fb84fd (took 112 ms)
+2015-01-05 23:13:17  [ main:10546 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-05 23:13:17  [ main:10546 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-05 23:13:17  [ main:10605 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-05 23:13:17  [ main:10605 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)

@@ -1,0 +1,184 @@
+2015-01-27 15:44:24  [ nioEventLoopGroup-3-1:0 ] - [ INFO ]  Init the channel pipeline.
+2015-01-27 15:44:25  [ nioEventLoopGroup-3-1:307 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-01-27 15:44:25  [ nioEventLoopGroup-3-1:733 ] - [ INFO ]  Decoding
+2015-01-27 15:44:26  [ nioEventLoopGroup-3-1:1561 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 15:44:26  [ nioEventLoopGroup-3-1:1562 ] - [ INFO ]  process the LoginMsg.
+2015-01-27 15:44:26  [ pool-1-thread-1:1670 ] - [ INFO ]  start run loginTask,congs!
+2015-01-27 15:44:28  [ pool-1-thread-1:3756 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-01-27 15:44:29  [ nioEventLoopGroup-3-1:5001 ] - [ INFO ]  Encoding... 
+2015-01-27 15:44:59  [ nioEventLoopGroup-3-1:35062 ] - [ INFO ]  At time : 15:44:59 ,to send the PING.
+2015-01-27 15:44:59  [ nioEventLoopGroup-3-1:35062 ] - [ INFO ]  Encoding... 
+2015-01-27 15:44:59  [ nioEventLoopGroup-3-1:35073 ] - [ INFO ]  Decoding
+2015-01-27 15:44:59  [ nioEventLoopGroup-3-1:35073 ] - [ INFO ]  At time : 15:44:59 ,received PONG from client.
+2015-01-27 15:45:29  [ nioEventLoopGroup-3-1:65063 ] - [ INFO ]  At time : 15:45:29 ,to send the PING.
+2015-01-27 15:45:29  [ nioEventLoopGroup-3-1:65063 ] - [ INFO ]  Encoding... 
+2015-01-27 15:45:34  [ nioEventLoopGroup-3-1:70192 ] - [ INFO ]  Decoding
+2015-01-27 15:46:53  [ nioEventLoopGroup-3-2:149160 ] - [ INFO ]  Init the channel pipeline.
+2015-01-27 15:46:53  [ nioEventLoopGroup-3-2:149161 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-01-27 15:46:53  [ nioEventLoopGroup-3-2:149232 ] - [ INFO ]  Decoding
+2015-01-27 15:46:53  [ nioEventLoopGroup-3-2:149232 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 15:46:53  [ nioEventLoopGroup-3-2:149232 ] - [ INFO ]  process the LoginMsg.
+2015-01-27 15:46:53  [ pool-1-thread-2:149233 ] - [ INFO ]  start run loginTask,congs!
+2015-01-27 15:46:55  [ pool-1-thread-2:150330 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-01-27 15:46:56  [ nioEventLoopGroup-3-2:151330 ] - [ INFO ]  Encoding... 
+2015-01-27 15:46:56  [ nioEventLoopGroup-3-2:151393 ] - [ INFO ]  Decoding
+2015-01-27 15:46:56  [ nioEventLoopGroup-3-2:151393 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 15:46:56  [ nioEventLoopGroup-3-2:151393 ] - [ INFO ]  process the ChatMsg.
+2015-01-27 15:46:57  [ nioEventLoopGroup-3-2:152390 ] - [ INFO ]  Decoding
+2015-01-27 15:46:57  [ nioEventLoopGroup-3-2:152391 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 15:46:57  [ nioEventLoopGroup-3-2:152391 ] - [ INFO ]  process the ChatMsg.
+2015-01-27 15:47:26  [ nioEventLoopGroup-3-2:181332 ] - [ INFO ]  At time : 15:47:26 ,to send the PING.
+2015-01-27 15:47:26  [ nioEventLoopGroup-3-2:181332 ] - [ INFO ]  Encoding... 
+2015-01-27 15:47:26  [ nioEventLoopGroup-3-2:181334 ] - [ INFO ]  Decoding
+2015-01-27 15:47:26  [ nioEventLoopGroup-3-2:181335 ] - [ INFO ]  At time : 15:47:26 ,received PONG from client.
+2015-01-27 15:47:31  [ nioEventLoopGroup-3-2:186516 ] - [ INFO ]  Decoding
+2015-01-27 15:57:47  [ nioEventLoopGroup-3-1:0 ] - [ INFO ]  Init the channel pipeline.
+2015-01-27 15:57:47  [ nioEventLoopGroup-3-1:99 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-01-27 15:57:48  [ nioEventLoopGroup-3-1:248 ] - [ INFO ]  Decoding
+2015-01-27 15:57:48  [ nioEventLoopGroup-3-1:440 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 15:57:48  [ nioEventLoopGroup-3-1:441 ] - [ INFO ]  process the LoginMsg.
+2015-01-27 15:57:48  [ pool-1-thread-1:496 ] - [ INFO ]  start run loginTask,congs!
+2015-01-27 15:57:50  [ pool-1-thread-1:2264 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-01-27 15:57:51  [ nioEventLoopGroup-3-1:3313 ] - [ INFO ]  Encoding... 
+2015-01-27 15:57:51  [ nioEventLoopGroup-3-1:3661 ] - [ INFO ]  Decoding
+2015-01-27 15:57:51  [ nioEventLoopGroup-3-1:3662 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 15:57:51  [ nioEventLoopGroup-3-1:3662 ] - [ INFO ]  process the ChatMsg.
+2015-01-27 15:57:52  [ nioEventLoopGroup-3-1:4663 ] - [ INFO ]  UserId : 1,the session is null
+2015-01-27 15:57:52  [ nioEventLoopGroup-3-1:4685 ] - [ INFO ]  Decoding
+2015-01-27 15:57:52  [ nioEventLoopGroup-3-1:4685 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 15:57:52  [ nioEventLoopGroup-3-1:4685 ] - [ INFO ]  process the ChatMsg.
+2015-01-27 15:57:53  [ nioEventLoopGroup-3-1:5690 ] - [ INFO ]  UserId : 1,the session is null
+2015-01-27 16:07:59  [ nioEventLoopGroup-3-1:0 ] - [ INFO ]  Init the channel pipeline.
+2015-01-27 16:07:59  [ nioEventLoopGroup-3-1:219 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-01-27 16:07:59  [ nioEventLoopGroup-3-1:370 ] - [ INFO ]  Decoding
+2015-01-27 16:08:00  [ nioEventLoopGroup-3-1:746 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 16:08:00  [ nioEventLoopGroup-3-1:746 ] - [ INFO ]  process the LoginMsg.
+2015-01-27 16:08:00  [ pool-1-thread-1:836 ] - [ INFO ]  start run loginTask,congs!
+2015-01-27 16:08:00  [ pool-1-thread-1:1595 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-01-27 16:08:01  [ nioEventLoopGroup-3-1:1726 ] - [ INFO ]  Encoding... 
+2015-01-27 16:08:01  [ nioEventLoopGroup-3-1:2069 ] - [ INFO ]  Decoding
+2015-01-27 16:08:01  [ nioEventLoopGroup-3-1:2070 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 16:08:01  [ nioEventLoopGroup-3-1:2070 ] - [ INFO ]  process the ChatMsg.
+2015-01-27 16:08:01  [ nioEventLoopGroup-3-1:2121 ] - [ INFO ]  Decoding
+2015-01-27 16:08:01  [ nioEventLoopGroup-3-1:2121 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 16:08:01  [ nioEventLoopGroup-3-1:2121 ] - [ INFO ]  process the ChatMsg.
+2015-01-27 16:12:11  [ nioEventLoopGroup-3-1:0 ] - [ INFO ]  Init the channel pipeline.
+2015-01-27 16:12:11  [ nioEventLoopGroup-3-1:189 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-01-27 16:12:11  [ nioEventLoopGroup-3-1:361 ] - [ INFO ]  Decoding
+2015-01-27 16:12:11  [ nioEventLoopGroup-3-1:739 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 16:12:11  [ nioEventLoopGroup-3-1:740 ] - [ INFO ]  process the LoginMsg.
+2015-01-27 16:12:11  [ pool-1-thread-1:816 ] - [ INFO ]  start run loginTask,congs!
+2015-01-27 16:12:12  [ pool-1-thread-1:1473 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-01-27 16:12:12  [ nioEventLoopGroup-3-1:1611 ] - [ INFO ]  Encoding... 
+2015-01-27 16:12:12  [ nioEventLoopGroup-3-1:1905 ] - [ INFO ]  Decoding
+2015-01-27 16:12:12  [ nioEventLoopGroup-3-1:1905 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 16:12:12  [ nioEventLoopGroup-3-1:1905 ] - [ INFO ]  process the ChatMsg.
+2015-01-27 16:12:14  [ nioEventLoopGroup-3-1:3007 ] - [ INFO ]  Encoding... 
+2015-01-27 16:12:14  [ nioEventLoopGroup-3-1:3019 ] - [ INFO ]  Decoding
+2015-01-27 16:12:14  [ nioEventLoopGroup-3-1:3020 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 16:12:14  [ nioEventLoopGroup-3-1:3020 ] - [ INFO ]  process the ChatMsg.
+2015-01-27 16:12:14  [ nioEventLoopGroup-3-1:3024 ] - [ INFO ]  Encoding... 
+2015-01-27 16:12:44  [ nioEventLoopGroup-3-1:33037 ] - [ INFO ]  At time : 16:12:44 ,to send the PING.
+2015-01-27 16:12:44  [ nioEventLoopGroup-3-1:33037 ] - [ INFO ]  Encoding... 
+2015-01-27 16:12:44  [ nioEventLoopGroup-3-1:33048 ] - [ INFO ]  Decoding
+2015-01-27 16:12:44  [ nioEventLoopGroup-3-1:33049 ] - [ INFO ]  At time : 16:12:44 ,received PONG from client.
+2015-01-27 21:36:30  [ nioEventLoopGroup-3-1:0 ] - [ INFO ]  Init the channel pipeline.
+2015-01-27 21:36:30  [ nioEventLoopGroup-3-1:224 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-01-27 21:36:30  [ nioEventLoopGroup-3-1:552 ] - [ INFO ]  Decoding
+2015-01-27 21:36:31  [ nioEventLoopGroup-3-1:1048 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 21:36:31  [ nioEventLoopGroup-3-1:1048 ] - [ INFO ]  process the LoginMsg.
+2015-01-27 21:36:31  [ pool-1-thread-1:1141 ] - [ INFO ]  start run loginTask,congs!
+2015-01-27 21:36:32  [ pool-1-thread-1:2272 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-01-27 21:36:32  [ nioEventLoopGroup-3-1:2445 ] - [ INFO ]  Encoding... 
+2015-01-27 21:36:33  [ nioEventLoopGroup-3-1:2821 ] - [ INFO ]  Decoding
+2015-01-27 21:36:33  [ nioEventLoopGroup-3-1:2821 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 21:36:33  [ nioEventLoopGroup-3-1:2821 ] - [ INFO ]  process the ChatMsg.
+2015-01-27 21:36:34  [ nioEventLoopGroup-3-1:4039 ] - [ INFO ]  Encoding... 
+2015-01-27 21:36:34  [ nioEventLoopGroup-3-1:4052 ] - [ INFO ]  Decoding
+2015-01-27 21:36:34  [ nioEventLoopGroup-3-1:4052 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 21:36:34  [ nioEventLoopGroup-3-1:4052 ] - [ INFO ]  process the ChatMsg.
+2015-01-27 21:36:34  [ nioEventLoopGroup-3-1:4059 ] - [ INFO ]  Encoding... 
+2015-01-27 21:36:52  [ nioEventLoopGroup-3-1:22332 ] - [ INFO ]  Decoding
+2015-01-27 21:41:07  [ nioEventLoopGroup-3-2:277309 ] - [ INFO ]  Init the channel pipeline.
+2015-01-27 21:41:07  [ nioEventLoopGroup-3-2:277309 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:277981 ] - [ INFO ]  Decoding
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:277981 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:277981 ] - [ INFO ]  process the RegisterMsg.
+2015-01-27 21:41:08  [ pool-1-thread-2:278056 ] - [ INFO ]  start run regTask, congs!
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278067 ] - [ INFO ]  Encoding... 
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278482 ] - [ INFO ]  Decoding
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278482 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278482 ] - [ INFO ]  process the LoginMsg.
+2015-01-27 21:41:08  [ pool-1-thread-2:278483 ] - [ INFO ]  start run loginTask,congs!
+2015-01-27 21:41:08  [ pool-1-thread-2:278485 ] - [ INFO ]  the user is User [userId=2, username=yiqian, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278486 ] - [ INFO ]  Encoding... 
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278519 ] - [ INFO ]  Decoding
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278519 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278519 ] - [ INFO ]  process the ChatMsg.
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278519 ] - [ INFO ]  Encoding... 
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278533 ] - [ INFO ]  Encoding... 
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278533 ] - [ INFO ]  Decoding
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278533 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278533 ] - [ INFO ]  process the ChatMsg.
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278533 ] - [ INFO ]  Encoding... 
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278536 ] - [ INFO ]  Encoding... 
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278797 ] - [ INFO ]  Decoding
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278797 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278797 ] - [ INFO ]  process the AskOfflineMsg
+2015-01-27 21:41:08  [ nioEventLoopGroup-3-2:278799 ] - [ INFO ]  Encoding... 
+2015-01-27 21:41:09  [ nioEventLoopGroup-3-2:279041 ] - [ INFO ]  Encoding... 
+2015-01-27 21:41:09  [ nioEventLoopGroup-3-2:279041 ] - [ INFO ]  Encoding... 
+2015-01-27 21:41:09  [ nioEventLoopGroup-3-2:279041 ] - [ INFO ]  Encoding... 
+2015-01-27 21:41:09  [ nioEventLoopGroup-3-2:279042 ] - [ INFO ]  Encoding... 
+2015-01-27 21:41:39  [ nioEventLoopGroup-3-2:309077 ] - [ INFO ]  At time : 21:41:39 ,to send the PING.
+2015-01-27 21:41:39  [ nioEventLoopGroup-3-2:309077 ] - [ INFO ]  Encoding... 
+2015-01-27 21:41:39  [ nioEventLoopGroup-3-2:309088 ] - [ INFO ]  Decoding
+2015-01-27 21:41:39  [ nioEventLoopGroup-3-2:309088 ] - [ INFO ]  At time : 21:41:39 ,received PONG from client.
+2015-01-27 21:42:09  [ nioEventLoopGroup-3-2:339078 ] - [ INFO ]  At time : 21:42:09 ,to send the PING.
+2015-01-27 21:42:09  [ nioEventLoopGroup-3-2:339078 ] - [ INFO ]  Encoding... 
+2015-01-27 21:42:39  [ nioEventLoopGroup-3-2:369080 ] - [ INFO ]  At time : 21:42:39 ,to send the PING.
+2015-01-27 21:42:39  [ nioEventLoopGroup-3-2:369080 ] - [ INFO ]  Encoding... 
+2015-01-27 21:42:39  [ nioEventLoopGroup-3-2:369090 ] - [ INFO ]  At time : 21:42:39 timeout to rev the PONG. 
+2015-01-27 21:42:39  [ nioEventLoopGroup-3-2:369090 ] - [ INFO ]  the user User [userId=2, username=yiqian, password=]	fr&cMV?&????, email=aaaaaa@a.com]is about to leave.
+2015-01-27 21:42:39  [ nioEventLoopGroup-3-2:369130 ] - [ INFO ]  Decoding
+2015-01-27 21:48:02  [ nioEventLoopGroup-3-3:692418 ] - [ INFO ]  Init the channel pipeline.
+2015-01-27 21:48:02  [ nioEventLoopGroup-3-3:692419 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-01-27 21:48:02  [ nioEventLoopGroup-3-3:692493 ] - [ INFO ]  Decoding
+2015-01-27 21:48:02  [ nioEventLoopGroup-3-3:692494 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 21:48:02  [ nioEventLoopGroup-3-3:692494 ] - [ INFO ]  process the LoginMsg.
+2015-01-27 21:48:02  [ pool-1-thread-3:692495 ] - [ INFO ]  start run loginTask,congs!
+2015-01-27 21:48:02  [ pool-1-thread-3:692497 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-01-27 21:48:02  [ nioEventLoopGroup-3-3:692498 ] - [ INFO ]  Encoding... 
+2015-01-27 21:48:02  [ nioEventLoopGroup-3-3:692516 ] - [ INFO ]  Decoding
+2015-01-27 21:48:02  [ nioEventLoopGroup-3-3:692516 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 21:48:02  [ nioEventLoopGroup-3-3:692516 ] - [ INFO ]  process the ChatMsg.
+2015-01-27 21:48:02  [ nioEventLoopGroup-3-3:692521 ] - [ INFO ]  Encoding... 
+2015-01-27 21:48:02  [ nioEventLoopGroup-3-3:692522 ] - [ INFO ]  Decoding
+2015-01-27 21:48:02  [ nioEventLoopGroup-3-3:692522 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 21:48:02  [ nioEventLoopGroup-3-3:692522 ] - [ INFO ]  process the ChatMsg.
+2015-01-27 21:48:02  [ nioEventLoopGroup-3-3:692526 ] - [ INFO ]  Encoding... 
+2015-01-27 21:48:22  [ nioEventLoopGroup-3-3:711839 ] - [ INFO ]  Decoding
+2015-01-27 21:48:46  [ nioEventLoopGroup-3-4:736413 ] - [ INFO ]  Init the channel pipeline.
+2015-01-27 21:48:46  [ nioEventLoopGroup-3-4:736413 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-01-27 21:48:46  [ nioEventLoopGroup-3-4:736486 ] - [ INFO ]  Decoding
+2015-01-27 21:48:46  [ nioEventLoopGroup-3-4:736486 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 21:48:46  [ nioEventLoopGroup-3-4:736486 ] - [ INFO ]  process the RegisterMsg.
+2015-01-27 21:48:46  [ pool-1-thread-3:736487 ] - [ INFO ]  start run regTask, congs!
+2015-01-27 21:48:46  [ nioEventLoopGroup-3-4:736489 ] - [ INFO ]  Encoding... 
+2015-01-27 21:48:46  [ nioEventLoopGroup-3-4:736504 ] - [ INFO ]  Decoding
+2015-01-27 21:48:46  [ nioEventLoopGroup-3-4:736505 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 21:48:46  [ nioEventLoopGroup-3-4:736505 ] - [ INFO ]  process the LoginMsg.
+2015-01-27 21:48:46  [ pool-1-thread-3:736505 ] - [ INFO ]  start run loginTask,congs!
+2015-01-27 21:48:46  [ pool-1-thread-3:736506 ] - [ INFO ]  the user is User [userId=2, username=yiqian, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-01-27 21:48:46  [ nioEventLoopGroup-3-4:736508 ] - [ INFO ]  Encoding... 
+2015-01-27 21:48:46  [ nioEventLoopGroup-3-4:736511 ] - [ INFO ]  Decoding
+2015-01-27 21:48:46  [ nioEventLoopGroup-3-4:736511 ] - [ INFO ]  the ServerMsgHandler start to handler Msg.
+2015-01-27 21:48:46  [ nioEventLoopGroup-3-4:736511 ] - [ INFO ]  process the AskOfflineMsg
+2015-01-27 21:48:46  [ nioEventLoopGroup-3-4:736512 ] - [ INFO ]  Encoding... 
+2015-01-27 21:48:46  [ nioEventLoopGroup-3-4:736517 ] - [ INFO ]  Encoding... 
+2015-01-27 21:48:46  [ nioEventLoopGroup-3-4:736517 ] - [ INFO ]  Encoding... 
+2015-01-27 21:49:16  [ nioEventLoopGroup-3-4:766519 ] - [ INFO ]  At time : 21:49:16 ,to send the PING.
+2015-01-27 21:49:16  [ nioEventLoopGroup-3-4:766519 ] - [ INFO ]  Encoding... 
+2015-01-27 21:49:16  [ nioEventLoopGroup-3-4:766555 ] - [ INFO ]  Decoding
+2015-01-27 21:49:16  [ nioEventLoopGroup-3-4:766555 ] - [ INFO ]  At time : 21:49:16 ,received PONG from client.
+2015-01-27 21:49:43  [ nioEventLoopGroup-3-4:793454 ] - [ INFO ]  Decoding

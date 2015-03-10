@@ -1,0 +1,640 @@
+2015-01-12 15:00:08  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-12 15:00:08  [ main:48 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-12 15:00:08  [ main:165 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-12 15:00:08  [ main:168 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-12 15:00:08  [ main:169 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-12 15:00:08  [ main:169 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-12 15:00:08  [ main:170 ] - [ DEBUG ]  Platform: Windows
+2015-01-12 15:00:08  [ main:178 ] - [ DEBUG ]  Java version: 7
+2015-01-12 15:00:08  [ main:178 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-12 15:00:08  [ main:179 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-12 15:00:08  [ main:185 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-12 15:00:08  [ main:187 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-12 15:00:08  [ main:187 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-12 15:00:08  [ main:187 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-12 15:00:08  [ main:188 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-12 15:00:08  [ main:188 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-12 15:00:09  [ main:358 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-12 15:00:09  [ main:359 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-12 15:00:09  [ main:742 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0x9e6865027e66aa59 (took 144 ms)
+2015-01-12 15:00:09  [ main:856 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-12 15:00:09  [ main:857 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-12 15:00:09  [ main:924 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-12 15:00:09  [ main:924 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-01-12 15:00:09  [ nioEventLoopGroup-2-1:964 ] - [ INFO ]  [id: 0x16b4aff8] REGISTERED
+2015-01-12 15:00:09  [ nioEventLoopGroup-2-1:966 ] - [ INFO ]  [id: 0x16b4aff8] BIND(0.0.0.0/0.0.0.0:8007)
+2015-01-12 15:00:09  [ nioEventLoopGroup-2-1:967 ] - [ INFO ]  [id: 0x16b4aff8, /0:0:0:0:0:0:0:0:8007] ACTIVE
+2015-01-12 15:00:18  [ nioEventLoopGroup-2-1:9826 ] - [ INFO ]  [id: 0x16b4aff8, /0:0:0:0:0:0:0:0:8007] RECEIVED: [id: 0x5a6bd69d, /127.0.0.1:52307 => /127.0.0.1:8007]
+2015-01-12 15:01:07  [ nioEventLoopGroup-3-1:58691 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-01-12 15:01:07  [ nioEventLoopGroup-3-1:58709 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2015-01-12 15:01:07  [ nioEventLoopGroup-3-1:58710 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:447)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881)
+	at io.netty.buffer.WrappedByteBuf.writeBytes(WrappedByteBuf.java:641)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:225)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Unknown Source)
+2015-01-12 15:01:07  [ nioEventLoopGroup-3-1:58724 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-01-12 15:09:52  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-12 15:09:52  [ main:6 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-12 15:09:52  [ main:15 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-12 15:09:52  [ main:16 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-12 15:09:52  [ main:16 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-12 15:09:52  [ main:17 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-12 15:09:52  [ main:17 ] - [ DEBUG ]  Platform: Windows
+2015-01-12 15:09:52  [ main:17 ] - [ DEBUG ]  Java version: 7
+2015-01-12 15:09:52  [ main:17 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-12 15:09:52  [ main:17 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-12 15:09:52  [ main:18 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-12 15:09:52  [ main:18 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-12 15:09:52  [ main:19 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-12 15:09:52  [ main:19 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-12 15:09:52  [ main:19 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-12 15:09:52  [ main:19 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-12 15:09:52  [ main:48 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-12 15:09:52  [ main:48 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-12 15:09:53  [ main:100 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0x5b90725f92a70c7c (took 5 ms)
+2015-01-12 15:09:53  [ main:120 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-12 15:09:53  [ main:120 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-12 15:09:53  [ main:173 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-12 15:09:53  [ main:173 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-01-12 15:09:53  [ nioEventLoopGroup-2-1:184 ] - [ INFO ]  [id: 0x3e8324f6] REGISTERED
+2015-01-12 15:09:53  [ nioEventLoopGroup-2-1:186 ] - [ INFO ]  [id: 0x3e8324f6] BIND(0.0.0.0/0.0.0.0:8007)
+2015-01-12 15:09:53  [ nioEventLoopGroup-2-1:187 ] - [ INFO ]  [id: 0x3e8324f6, /0:0:0:0:0:0:0:0:8007] ACTIVE
+2015-01-12 15:10:08  [ nioEventLoopGroup-2-1:15882 ] - [ INFO ]  [id: 0x3e8324f6, /0:0:0:0:0:0:0:0:8007] RECEIVED: [id: 0xeafeb3f5, /127.0.0.1:52381 => /127.0.0.1:8007]
+2015-01-12 15:10:53  [ nioEventLoopGroup-3-1:60424 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-01-12 15:10:53  [ nioEventLoopGroup-3-1:60427 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2015-01-12 15:10:53  [ nioEventLoopGroup-3-1:60427 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:447)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881)
+	at io.netty.buffer.WrappedByteBuf.writeBytes(WrappedByteBuf.java:641)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:225)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Unknown Source)
+2015-01-12 15:10:53  [ nioEventLoopGroup-3-1:60432 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-01-12 15:11:08  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-12 15:11:08  [ main:6 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-12 15:11:08  [ main:13 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-12 15:11:08  [ main:15 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-12 15:11:08  [ main:15 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-12 15:11:08  [ main:16 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-12 15:11:08  [ main:16 ] - [ DEBUG ]  Platform: Windows
+2015-01-12 15:11:08  [ main:16 ] - [ DEBUG ]  Java version: 7
+2015-01-12 15:11:08  [ main:16 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-12 15:11:08  [ main:17 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-12 15:11:08  [ main:17 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-12 15:11:08  [ main:18 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-12 15:11:08  [ main:18 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-12 15:11:08  [ main:18 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-12 15:11:08  [ main:18 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-12 15:11:08  [ main:18 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-12 15:11:08  [ main:59 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-12 15:11:08  [ main:59 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-12 15:11:08  [ main:145 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0xd2f946c911f5bfd8 (took 9 ms)
+2015-01-12 15:11:18  [ main:10330 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-12 15:11:18  [ main:10330 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-12 15:11:18  [ main:10403 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-12 15:11:18  [ main:10404 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-01-12 15:12:06  [ nioEventLoopGroup-2-1:58094 ] - [ INFO ]  [id: 0x50f41c9e] REGISTERED
+2015-01-12 15:12:06  [ nioEventLoopGroup-2-1:58108 ] - [ INFO ]  [id: 0x50f41c9e] BIND(0.0.0.0/0.0.0.0:8007)
+2015-01-12 15:12:06  [ nioEventLoopGroup-2-1:58110 ] - [ INFO ]  [id: 0x50f41c9e] CLOSE()
+2015-01-12 15:12:06  [ nioEventLoopGroup-2-1:58118 ] - [ INFO ]  [id: 0x50f41c9e] UNREGISTERED
+2015-01-12 15:12:33  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-12 15:12:33  [ main:5 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-12 15:12:33  [ main:12 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-12 15:12:33  [ main:14 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-12 15:12:33  [ main:15 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-12 15:12:33  [ main:15 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-12 15:12:33  [ main:15 ] - [ DEBUG ]  Platform: Windows
+2015-01-12 15:12:33  [ main:16 ] - [ DEBUG ]  Java version: 7
+2015-01-12 15:12:33  [ main:16 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-12 15:12:33  [ main:16 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-12 15:12:33  [ main:16 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-12 15:12:33  [ main:17 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-12 15:12:33  [ main:17 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-12 15:12:33  [ main:17 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-12 15:12:33  [ main:18 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-12 15:12:33  [ main:18 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-12 15:12:33  [ main:54 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-12 15:12:33  [ main:54 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-12 15:12:33  [ main:147 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0x20f4465d5d75b2e9 (took 16 ms)
+2015-01-12 15:12:33  [ main:201 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-12 15:12:33  [ main:201 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-12 15:12:33  [ main:270 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-12 15:12:33  [ main:270 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-01-12 15:12:33  [ nioEventLoopGroup-2-1:290 ] - [ INFO ]  [id: 0x00d01595] REGISTERED
+2015-01-12 15:12:33  [ nioEventLoopGroup-2-1:294 ] - [ INFO ]  [id: 0x00d01595] BIND(0.0.0.0/0.0.0.0:8007)
+2015-01-12 15:12:33  [ nioEventLoopGroup-2-1:297 ] - [ INFO ]  [id: 0x00d01595, /0:0:0:0:0:0:0:0:8007] ACTIVE
+2015-01-12 15:12:46  [ nioEventLoopGroup-2-1:12622 ] - [ INFO ]  [id: 0x00d01595, /0:0:0:0:0:0:0:0:8007] RECEIVED: [id: 0x99cd4b8d, /127.0.0.1:52450 => /127.0.0.1:8007]
+2015-01-12 15:13:46  [ nioEventLoopGroup-3-1:72940 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-01-12 15:13:46  [ nioEventLoopGroup-3-1:72945 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2015-01-12 15:13:46  [ nioEventLoopGroup-3-1:72947 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:447)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881)
+	at io.netty.buffer.WrappedByteBuf.writeBytes(WrappedByteBuf.java:641)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:225)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Unknown Source)
+2015-01-12 15:13:46  [ nioEventLoopGroup-3-1:72965 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-01-12 15:14:47  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-12 15:14:47  [ main:6 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-12 15:14:47  [ main:14 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-12 15:14:47  [ main:17 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-12 15:14:47  [ main:17 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-12 15:14:47  [ main:18 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-12 15:14:47  [ main:18 ] - [ DEBUG ]  Platform: Windows
+2015-01-12 15:14:47  [ main:18 ] - [ DEBUG ]  Java version: 7
+2015-01-12 15:14:47  [ main:19 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-12 15:14:47  [ main:19 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-12 15:14:47  [ main:19 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-12 15:14:47  [ main:20 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-12 15:14:47  [ main:20 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-12 15:14:47  [ main:20 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-12 15:14:47  [ main:20 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-12 15:14:47  [ main:20 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-12 15:14:47  [ main:59 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-12 15:14:47  [ main:59 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-12 15:14:48  [ main:129 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0x38e60e91157e9dd5 (took 9 ms)
+2015-01-12 15:14:48  [ main:175 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-12 15:14:48  [ main:175 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-12 15:14:48  [ main:242 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-12 15:14:48  [ main:242 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-01-12 15:14:48  [ nioEventLoopGroup-2-1:258 ] - [ INFO ]  [id: 0xefdedf23] REGISTERED
+2015-01-12 15:14:48  [ nioEventLoopGroup-2-1:262 ] - [ INFO ]  [id: 0xefdedf23] BIND(0.0.0.0/0.0.0.0:8007)
+2015-01-12 15:14:48  [ nioEventLoopGroup-2-1:264 ] - [ INFO ]  [id: 0xefdedf23, /0:0:0:0:0:0:0:0:8007] ACTIVE
+2015-01-12 15:15:01  [ nioEventLoopGroup-2-1:13246 ] - [ INFO ]  [id: 0xefdedf23, /0:0:0:0:0:0:0:0:8007] RECEIVED: [id: 0x4de8d59b, /127.0.0.1:52495 => /127.0.0.1:8007]
+2015-01-12 15:15:09  [ nioEventLoopGroup-3-1:21696 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-01-12 15:15:09  [ nioEventLoopGroup-3-1:21704 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-01-12 15:15:12  [ nioEventLoopGroup-3-1:24964 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2015-01-12 15:15:15  [ nioEventLoopGroup-3-1:27429 ] - [ INFO ]  Come into the PersonHandler!
+2015-01-12 17:20:03  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-12 17:20:03  [ main:48 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-12 17:20:03  [ main:174 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-12 17:20:03  [ main:189 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-12 17:20:03  [ main:190 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-12 17:20:03  [ main:191 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-12 17:20:03  [ main:191 ] - [ DEBUG ]  Platform: Windows
+2015-01-12 17:20:03  [ main:211 ] - [ DEBUG ]  Java version: 7
+2015-01-12 17:20:03  [ main:212 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-12 17:20:03  [ main:212 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-12 17:20:03  [ main:218 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-12 17:20:03  [ main:220 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-12 17:20:03  [ main:221 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-12 17:20:03  [ main:221 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-12 17:20:03  [ main:237 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-12 17:20:03  [ main:237 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-12 17:20:03  [ main:376 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-12 17:20:03  [ main:376 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-12 17:20:03  [ main:730 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0x4f07bdf04dc12741 (took 122 ms)
+2015-01-12 17:20:03  [ main:799 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-12 17:20:03  [ main:800 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-12 17:20:03  [ main:873 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-12 17:20:03  [ main:873 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-01-12 17:20:03  [ nioEventLoopGroup-2-1:958 ] - [ INFO ]  [id: 0xc2341ef9] REGISTERED
+2015-01-12 17:20:03  [ nioEventLoopGroup-2-1:960 ] - [ INFO ]  [id: 0xc2341ef9] BIND(0.0.0.0/0.0.0.0:8007)
+2015-01-12 17:20:03  [ nioEventLoopGroup-2-1:962 ] - [ INFO ]  [id: 0xc2341ef9, /0:0:0:0:0:0:0:0:8007] ACTIVE
+2015-01-12 17:20:24  [ nioEventLoopGroup-2-1:21951 ] - [ INFO ]  [id: 0xc2341ef9, /0:0:0:0:0:0:0:0:8007] RECEIVED: [id: 0x425e9276, /127.0.0.1:53740 => /127.0.0.1:8007]
+2015-01-12 17:20:25  [ nioEventLoopGroup-3-1:22054 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-01-12 17:20:25  [ nioEventLoopGroup-3-1:22058 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-01-12 17:20:25  [ nioEventLoopGroup-3-1:22129 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.NullPointerException
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:299)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at cn.david.codec.MyProtobufFrameDecoder.decode(MyProtobufFrameDecoder.java:36)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:268)
+	... 12 more
+2015-01-12 17:24:19  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-12 17:24:19  [ main:5 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-12 17:24:19  [ main:12 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-12 17:24:19  [ main:13 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-12 17:24:19  [ main:13 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-12 17:24:19  [ main:14 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-12 17:24:19  [ main:14 ] - [ DEBUG ]  Platform: Windows
+2015-01-12 17:24:19  [ main:14 ] - [ DEBUG ]  Java version: 7
+2015-01-12 17:24:19  [ main:14 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-12 17:24:19  [ main:15 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-12 17:24:19  [ main:15 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-12 17:24:19  [ main:15 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-12 17:24:19  [ main:16 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-12 17:24:19  [ main:16 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-12 17:24:19  [ main:16 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-12 17:24:19  [ main:17 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-12 17:24:19  [ main:43 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-12 17:24:19  [ main:43 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-12 17:24:19  [ main:102 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0xd75143da062c1d02 (took 6 ms)
+2015-01-12 17:24:19  [ main:136 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-12 17:24:19  [ main:136 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-12 17:24:19  [ main:199 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-12 17:24:19  [ main:199 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-01-12 17:24:19  [ nioEventLoopGroup-2-1:241 ] - [ INFO ]  [id: 0xa5aeedee] REGISTERED
+2015-01-12 17:24:19  [ nioEventLoopGroup-2-1:242 ] - [ INFO ]  [id: 0xa5aeedee] BIND(0.0.0.0/0.0.0.0:8007)
+2015-01-12 17:24:19  [ nioEventLoopGroup-2-1:243 ] - [ INFO ]  [id: 0xa5aeedee, /0:0:0:0:0:0:0:0:8007] ACTIVE
+2015-01-12 17:24:35  [ nioEventLoopGroup-2-1:16067 ] - [ INFO ]  [id: 0xa5aeedee, /0:0:0:0:0:0:0:0:8007] RECEIVED: [id: 0x2f7d9516, /127.0.0.1:53787 => /127.0.0.1:8007]
+2015-01-12 17:24:35  [ nioEventLoopGroup-3-1:16113 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-01-12 17:24:35  [ nioEventLoopGroup-3-1:16117 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-01-12 17:24:35  [ nioEventLoopGroup-3-1:16137 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.NullPointerException
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:299)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at cn.david.codec.MyProtobufFrameDecoder.decode(MyProtobufFrameDecoder.java:36)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:268)
+	... 12 more
+2015-01-12 17:28:00  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-12 17:28:00  [ main:16 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-12 17:28:00  [ main:45 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-12 17:28:00  [ main:61 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-12 17:28:00  [ main:61 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-12 17:28:00  [ main:62 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-12 17:28:00  [ main:62 ] - [ DEBUG ]  Platform: Windows
+2015-01-12 17:28:00  [ main:63 ] - [ DEBUG ]  Java version: 7
+2015-01-12 17:28:00  [ main:63 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-12 17:28:00  [ main:63 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-12 17:28:00  [ main:64 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-12 17:28:00  [ main:65 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-12 17:28:00  [ main:65 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-12 17:28:00  [ main:65 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-12 17:28:00  [ main:67 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-12 17:28:00  [ main:67 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-12 17:28:00  [ main:114 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-12 17:28:00  [ main:114 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-12 17:28:00  [ main:275 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0x07c199c0d5fc7d74 (took 19 ms)
+2015-01-12 17:28:00  [ main:331 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-12 17:28:00  [ main:331 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-12 17:28:00  [ main:414 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-12 17:28:00  [ main:414 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-01-12 17:28:01  [ nioEventLoopGroup-2-1:1017 ] - [ INFO ]  [id: 0x16d21bb6] REGISTERED
+2015-01-12 17:28:01  [ nioEventLoopGroup-2-1:1022 ] - [ INFO ]  [id: 0x16d21bb6] BIND(0.0.0.0/0.0.0.0:8007)
+2015-01-12 17:28:01  [ nioEventLoopGroup-2-1:1025 ] - [ INFO ]  [id: 0x16d21bb6, /0:0:0:0:0:0:0:0:8007] ACTIVE
+2015-01-12 17:28:07  [ nioEventLoopGroup-2-1:7172 ] - [ INFO ]  [id: 0x16d21bb6, /0:0:0:0:0:0:0:0:8007] RECEIVED: [id: 0xbb48a55a, /127.0.0.1:53828 => /127.0.0.1:8007]
+2015-01-12 17:28:07  [ nioEventLoopGroup-3-1:7225 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-01-12 17:28:07  [ nioEventLoopGroup-3-1:7237 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-01-12 17:28:15  [ nioEventLoopGroup-3-1:15618 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.NullPointerException
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:299)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at cn.david.codec.MyProtobufFrameDecoder.decode(MyProtobufFrameDecoder.java:36)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:268)
+	... 12 more
+2015-01-12 17:29:12  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-12 17:29:12  [ main:5 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-12 17:29:12  [ main:12 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-12 17:29:12  [ main:14 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-12 17:29:12  [ main:15 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-12 17:29:12  [ main:15 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-12 17:29:12  [ main:15 ] - [ DEBUG ]  Platform: Windows
+2015-01-12 17:29:12  [ main:16 ] - [ DEBUG ]  Java version: 7
+2015-01-12 17:29:12  [ main:16 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-12 17:29:12  [ main:16 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-12 17:29:12  [ main:16 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-12 17:29:12  [ main:17 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-12 17:29:12  [ main:18 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-12 17:29:12  [ main:18 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-12 17:29:12  [ main:18 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-12 17:29:12  [ main:19 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-12 17:29:12  [ main:55 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-12 17:29:12  [ main:55 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-12 17:29:12  [ main:128 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0x3376c9216467ac02 (took 8 ms)
+2015-01-12 17:29:12  [ main:173 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-12 17:29:12  [ main:174 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-12 17:29:12  [ main:242 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-12 17:29:12  [ main:242 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-01-12 17:29:12  [ nioEventLoopGroup-2-1:261 ] - [ INFO ]  [id: 0x11daa3bc] REGISTERED
+2015-01-12 17:29:12  [ nioEventLoopGroup-2-1:264 ] - [ INFO ]  [id: 0x11daa3bc] BIND(0.0.0.0/0.0.0.0:8007)
+2015-01-12 17:29:12  [ nioEventLoopGroup-2-1:267 ] - [ INFO ]  [id: 0x11daa3bc, /0:0:0:0:0:0:0:0:8007] ACTIVE
+2015-01-12 17:29:20  [ nioEventLoopGroup-2-1:8107 ] - [ INFO ]  [id: 0x11daa3bc, /0:0:0:0:0:0:0:0:8007] RECEIVED: [id: 0x52c7ce8e, /127.0.0.1:53874 => /127.0.0.1:8007]
+2015-01-12 17:29:20  [ nioEventLoopGroup-3-1:8162 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-01-12 17:29:20  [ nioEventLoopGroup-3-1:8173 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-01-12 17:33:39  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-12 17:33:39  [ main:7 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-12 17:33:39  [ main:15 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-12 17:33:39  [ main:17 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-12 17:33:39  [ main:17 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-12 17:33:39  [ main:17 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-12 17:33:39  [ main:18 ] - [ DEBUG ]  Platform: Windows
+2015-01-12 17:33:39  [ main:18 ] - [ DEBUG ]  Java version: 7
+2015-01-12 17:33:39  [ main:18 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-12 17:33:39  [ main:18 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-12 17:33:39  [ main:18 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-12 17:33:39  [ main:19 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-12 17:33:39  [ main:19 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-12 17:33:39  [ main:20 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-12 17:33:39  [ main:20 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-12 17:33:39  [ main:20 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-12 17:33:39  [ main:59 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-12 17:33:39  [ main:59 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-12 17:33:39  [ main:135 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0x46ff1293f45e9163 (took 8 ms)
+2015-01-12 17:33:40  [ main:186 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-12 17:33:40  [ main:186 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-12 17:33:40  [ main:255 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-12 17:33:40  [ main:255 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-01-12 17:33:40  [ nioEventLoopGroup-2-1:275 ] - [ INFO ]  [id: 0x5c76e4bc] REGISTERED
+2015-01-12 17:33:40  [ nioEventLoopGroup-2-1:280 ] - [ INFO ]  [id: 0x5c76e4bc] BIND(0.0.0.0/0.0.0.0:8007)
+2015-01-12 17:33:40  [ nioEventLoopGroup-2-1:283 ] - [ INFO ]  [id: 0x5c76e4bc, /0:0:0:0:0:0:0:0:8007] ACTIVE
+2015-01-12 17:33:43  [ nioEventLoopGroup-2-1:3940 ] - [ INFO ]  [id: 0x5c76e4bc, /0:0:0:0:0:0:0:0:8007] RECEIVED: [id: 0x724ab083, /127.0.0.1:53922 => /127.0.0.1:8007]
+2015-01-12 17:33:43  [ nioEventLoopGroup-3-1:3987 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-01-12 17:33:43  [ nioEventLoopGroup-3-1:4004 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-01-12 17:33:53  [ nioEventLoopGroup-3-1:13960 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.NullPointerException
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:299)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at cn.david.codec.MyProtobufFrameDecoder.decode(MyProtobufFrameDecoder.java:38)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:268)
+	... 12 more
+2015-01-12 17:34:19  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-12 17:34:19  [ main:5 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-12 17:34:19  [ main:12 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-12 17:34:19  [ main:14 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-12 17:34:19  [ main:14 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-12 17:34:19  [ main:15 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-12 17:34:19  [ main:15 ] - [ DEBUG ]  Platform: Windows
+2015-01-12 17:34:19  [ main:16 ] - [ DEBUG ]  Java version: 7
+2015-01-12 17:34:19  [ main:16 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-12 17:34:19  [ main:16 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-12 17:34:19  [ main:16 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-12 17:34:19  [ main:17 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-12 17:34:19  [ main:17 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-12 17:34:19  [ main:17 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-12 17:34:19  [ main:18 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-12 17:34:19  [ main:18 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-12 17:34:19  [ main:55 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-12 17:34:19  [ main:56 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-12 17:34:19  [ main:129 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0xd36a0f62754f6dbe (took 10 ms)
+2015-01-12 17:34:19  [ main:175 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-12 17:34:19  [ main:175 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-12 17:34:19  [ main:245 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-12 17:34:19  [ main:245 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-01-12 17:34:19  [ nioEventLoopGroup-2-1:260 ] - [ INFO ]  [id: 0xa4f8311a] REGISTERED
+2015-01-12 17:34:19  [ nioEventLoopGroup-2-1:265 ] - [ INFO ]  [id: 0xa4f8311a] BIND(0.0.0.0/0.0.0.0:8007)
+2015-01-12 17:34:19  [ nioEventLoopGroup-2-1:268 ] - [ INFO ]  [id: 0xa4f8311a, /0:0:0:0:0:0:0:0:8007] ACTIVE
+2015-01-12 17:34:22  [ nioEventLoopGroup-2-1:3708 ] - [ INFO ]  [id: 0xa4f8311a, /0:0:0:0:0:0:0:0:8007] RECEIVED: [id: 0x6c9933fa, /127.0.0.1:53968 => /127.0.0.1:8007]
+2015-01-12 17:34:22  [ nioEventLoopGroup-3-1:3764 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-01-12 17:34:22  [ nioEventLoopGroup-3-1:3773 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-01-12 17:40:07  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-12 17:40:07  [ main:72 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-12 17:40:07  [ main:116 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-12 17:40:07  [ main:122 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-12 17:40:07  [ main:122 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-12 17:40:07  [ main:123 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-12 17:40:07  [ main:123 ] - [ DEBUG ]  Platform: Windows
+2015-01-12 17:40:07  [ main:124 ] - [ DEBUG ]  Java version: 7
+2015-01-12 17:40:07  [ main:124 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-12 17:40:07  [ main:124 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-12 17:40:07  [ main:125 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-12 17:40:07  [ main:126 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-12 17:40:07  [ main:126 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-12 17:40:07  [ main:127 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-12 17:40:07  [ main:128 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-12 17:40:07  [ main:128 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-12 17:40:07  [ main:225 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-12 17:40:07  [ main:225 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-12 17:40:07  [ main:576 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0xf92f66f56a8e4ba6 (took 96 ms)
+2015-01-12 17:40:07  [ main:662 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-12 17:40:07  [ main:662 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-12 17:40:07  [ main:731 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-12 17:40:07  [ main:732 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-01-12 17:40:07  [ nioEventLoopGroup-2-1:793 ] - [ INFO ]  [id: 0x30dd11a8] REGISTERED
+2015-01-12 17:40:07  [ nioEventLoopGroup-2-1:798 ] - [ INFO ]  [id: 0x30dd11a8] BIND(0.0.0.0/0.0.0.0:8007)
+2015-01-12 17:40:07  [ nioEventLoopGroup-2-1:802 ] - [ INFO ]  [id: 0x30dd11a8, /0:0:0:0:0:0:0:0:8007] ACTIVE
+2015-01-12 17:40:12  [ nioEventLoopGroup-2-1:5494 ] - [ INFO ]  [id: 0x30dd11a8, /0:0:0:0:0:0:0:0:8007] RECEIVED: [id: 0x37c9fd2e, /127.0.0.1:54115 => /127.0.0.1:8007]
+2015-01-12 17:40:12  [ nioEventLoopGroup-3-1:5567 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-01-12 17:40:12  [ nioEventLoopGroup-3-1:5578 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-01-12 17:41:02  [ nioEventLoopGroup-3-1:55703 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either than the input has been truncated or that an embedded message misreported its own length.
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:182)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either than the input has been truncated or that an embedded message misreported its own length.
+	at com.google.protobuf.InvalidProtocolBufferException.truncatedMessage(InvalidProtocolBufferException.java:70)
+	at com.google.protobuf.CodedInputStream.pushLimit(CodedInputStream.java:651)
+	at com.google.protobuf.CodedInputStream.readMessage(CodedInputStream.java:307)
+	at cn.david.domain.AddressBookProtos$Person.<init>(AddressBookProtos.java:158)
+	at cn.david.domain.AddressBookProtos$Person.<init>(AddressBookProtos.java:113)
+	at cn.david.domain.AddressBookProtos$Person$1.parsePartialFrom(AddressBookProtos.java:194)
+	at cn.david.domain.AddressBookProtos$Person$1.parsePartialFrom(AddressBookProtos.java:1)
+	at com.google.protobuf.AbstractParser.parsePartialFrom(AbstractParser.java:141)
+	at com.google.protobuf.AbstractParser.parseFrom(AbstractParser.java:176)
+	at com.google.protobuf.AbstractParser.parseFrom(AbstractParser.java:182)
+	at com.google.protobuf.AbstractParser.parseFrom(AbstractParser.java:49)
+	at io.netty.handler.codec.protobuf.ProtobufDecoder.decode(ProtobufDecoder.java:119)
+	at io.netty.handler.codec.protobuf.ProtobufDecoder.decode(ProtobufDecoder.java:63)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:89)
+	... 14 more
+2015-01-12 17:44:36  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-12 17:44:36  [ main:4 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-12 17:44:36  [ main:10 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-12 17:44:37  [ main:11 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-12 17:44:37  [ main:12 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-12 17:44:37  [ main:12 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-12 17:44:37  [ main:12 ] - [ DEBUG ]  Platform: Windows
+2015-01-12 17:44:37  [ main:13 ] - [ DEBUG ]  Java version: 7
+2015-01-12 17:44:37  [ main:13 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-12 17:44:37  [ main:13 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-12 17:44:37  [ main:13 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-12 17:44:37  [ main:14 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-12 17:44:37  [ main:14 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-12 17:44:37  [ main:14 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-12 17:44:37  [ main:15 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-12 17:44:37  [ main:15 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-12 17:44:37  [ main:41 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-12 17:44:37  [ main:41 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-12 17:44:37  [ main:98 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0xc5573f6fdc3258f5 (took 12 ms)
+2015-01-12 17:44:37  [ main:120 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-12 17:44:37  [ main:120 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-12 17:44:37  [ main:175 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-12 17:44:37  [ main:175 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-01-12 17:44:37  [ nioEventLoopGroup-2-1:187 ] - [ INFO ]  [id: 0xc2559718] REGISTERED
+2015-01-12 17:44:37  [ nioEventLoopGroup-2-1:192 ] - [ INFO ]  [id: 0xc2559718] BIND(0.0.0.0/0.0.0.0:8007)
+2015-01-12 17:44:37  [ nioEventLoopGroup-2-1:194 ] - [ INFO ]  [id: 0xc2559718, /0:0:0:0:0:0:0:0:8007] ACTIVE
+2015-01-12 17:44:41  [ nioEventLoopGroup-2-1:4678 ] - [ INFO ]  [id: 0xc2559718, /0:0:0:0:0:0:0:0:8007] RECEIVED: [id: 0xbf570e09, /127.0.0.1:54173 => /127.0.0.1:8007]
+2015-01-12 17:44:41  [ nioEventLoopGroup-3-1:4721 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-01-12 17:44:41  [ nioEventLoopGroup-3-1:4724 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-01-12 17:44:41  [ nioEventLoopGroup-3-1:4755 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either than the input has been truncated or that an embedded message misreported its own length.
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:182)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either than the input has been truncated or that an embedded message misreported its own length.
+	at com.google.protobuf.InvalidProtocolBufferException.truncatedMessage(InvalidProtocolBufferException.java:70)
+	at com.google.protobuf.CodedInputStream.pushLimit(CodedInputStream.java:651)
+	at com.google.protobuf.CodedInputStream.readMessage(CodedInputStream.java:307)
+	at cn.david.domain.AddressBookProtos$Person.<init>(AddressBookProtos.java:158)
+	at cn.david.domain.AddressBookProtos$Person.<init>(AddressBookProtos.java:113)
+	at cn.david.domain.AddressBookProtos$Person$1.parsePartialFrom(AddressBookProtos.java:194)
+	at cn.david.domain.AddressBookProtos$Person$1.parsePartialFrom(AddressBookProtos.java:1)
+	at com.google.protobuf.AbstractParser.parsePartialFrom(AbstractParser.java:141)
+	at com.google.protobuf.AbstractParser.parseFrom(AbstractParser.java:176)
+	at com.google.protobuf.AbstractParser.parseFrom(AbstractParser.java:182)
+	at com.google.protobuf.AbstractParser.parseFrom(AbstractParser.java:49)
+	at io.netty.handler.codec.protobuf.ProtobufDecoder.decode(ProtobufDecoder.java:119)
+	at io.netty.handler.codec.protobuf.ProtobufDecoder.decode(ProtobufDecoder.java:63)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:89)
+	... 14 more
+2015-01-12 17:45:14  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-12 17:45:14  [ main:5 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-12 17:45:14  [ main:12 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-12 17:45:14  [ main:14 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-12 17:45:14  [ main:14 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-12 17:45:14  [ main:15 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-12 17:45:14  [ main:15 ] - [ DEBUG ]  Platform: Windows
+2015-01-12 17:45:14  [ main:16 ] - [ DEBUG ]  Java version: 7
+2015-01-12 17:45:14  [ main:16 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-12 17:45:14  [ main:16 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-12 17:45:14  [ main:16 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-12 17:45:14  [ main:17 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-12 17:45:14  [ main:17 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-12 17:45:14  [ main:17 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-12 17:45:14  [ main:17 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-12 17:45:14  [ main:18 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-12 17:45:14  [ main:54 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-12 17:45:14  [ main:54 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-12 17:45:14  [ main:123 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0x8516c5441df86758 (took 10 ms)
+2015-01-12 17:45:14  [ main:166 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-12 17:45:14  [ main:166 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-12 17:45:14  [ main:236 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-12 17:45:14  [ main:237 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-01-12 17:45:14  [ nioEventLoopGroup-2-1:252 ] - [ INFO ]  [id: 0xb5522e1a] REGISTERED
+2015-01-12 17:45:14  [ nioEventLoopGroup-2-1:257 ] - [ INFO ]  [id: 0xb5522e1a] BIND(0.0.0.0/0.0.0.0:8007)
+2015-01-12 17:45:14  [ nioEventLoopGroup-2-1:259 ] - [ INFO ]  [id: 0xb5522e1a, /0:0:0:0:0:0:0:0:8007] ACTIVE
+2015-01-12 17:45:22  [ nioEventLoopGroup-2-1:8783 ] - [ INFO ]  [id: 0xb5522e1a, /0:0:0:0:0:0:0:0:8007] RECEIVED: [id: 0x35f38638, /127.0.0.1:54210 => /127.0.0.1:8007]
+2015-01-12 17:45:22  [ nioEventLoopGroup-3-1:8836 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-01-12 17:45:23  [ nioEventLoopGroup-3-1:8846 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-01-12 17:46:49  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-12 17:46:49  [ main:4 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-12 17:46:49  [ main:12 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-12 17:46:49  [ main:13 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-12 17:46:49  [ main:14 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-12 17:46:49  [ main:14 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-12 17:46:49  [ main:14 ] - [ DEBUG ]  Platform: Windows
+2015-01-12 17:46:49  [ main:15 ] - [ DEBUG ]  Java version: 7
+2015-01-12 17:46:49  [ main:15 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-12 17:46:49  [ main:15 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-12 17:46:49  [ main:15 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-12 17:46:49  [ main:16 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-12 17:46:49  [ main:16 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-12 17:46:49  [ main:17 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-12 17:46:49  [ main:17 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-12 17:46:49  [ main:17 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-12 17:46:49  [ main:47 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-12 17:46:49  [ main:47 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-12 17:46:49  [ main:93 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0xfc08b244a0ea1f01 (took 7 ms)
+2015-01-12 17:46:49  [ main:116 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-12 17:46:49  [ main:116 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-12 17:46:49  [ main:171 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-01-12 17:46:49  [ main:171 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-01-12 17:46:49  [ nioEventLoopGroup-2-1:184 ] - [ INFO ]  [id: 0x5a099ed9] REGISTERED
+2015-01-12 17:46:49  [ nioEventLoopGroup-2-1:185 ] - [ INFO ]  [id: 0x5a099ed9] BIND(0.0.0.0/0.0.0.0:8007)
+2015-01-12 17:46:49  [ nioEventLoopGroup-2-1:187 ] - [ INFO ]  [id: 0x5a099ed9, /0:0:0:0:0:0:0:0:8007] ACTIVE
+2015-01-12 17:46:56  [ nioEventLoopGroup-2-1:6939 ] - [ INFO ]  [id: 0x5a099ed9, /0:0:0:0:0:0:0:0:8007] RECEIVED: [id: 0x0bd0c837, /127.0.0.1:54254 => /127.0.0.1:8007]
+2015-01-12 17:46:56  [ nioEventLoopGroup-3-1:6986 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-01-12 17:46:56  [ nioEventLoopGroup-3-1:6990 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-01-12 17:46:56  [ nioEventLoopGroup-3-1:7014 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2015-01-12 17:46:56  [ nioEventLoopGroup-3-1:7021 ] - [ INFO ]  Come into the PersonHandler!
+2015-01-12 17:46:56  [ nioEventLoopGroup-3-1:7041 ] - [ INFO ]  Come into the PersonHandler!

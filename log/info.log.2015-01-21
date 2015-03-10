@@ -1,0 +1,8 @@
+2015-01-21 21:31:21  [ main:0 ] - [ INFO ]  start run loginTask,congs!
+2015-01-21 21:31:21  [ main:852 ] - [ INFO ]  the user is User [userId=0, username=null, password=null, email=null]
+2015-01-21 21:34:33  [ main:0 ] - [ INFO ]  start run loginTask,congs!
+2015-01-21 21:34:33  [ main:210 ] - [ INFO ]  can't find the user!
+2015-01-21 21:34:49  [ main:0 ] - [ INFO ]  start run loginTask,congs!
+2015-01-21 21:34:49  [ main:236 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
+2015-01-21 21:35:21  [ main:0 ] - [ INFO ]  start run loginTask,congs!
+2015-01-21 21:35:21  [ main:213 ] - [ INFO ]  the user is User [userId=1, username=david, password=]	fr&cMV?&????, email=aaaaaa@a.com]
