@@ -166,7 +166,9 @@ public class IMServerMsgHandler extends ChannelInboundHandlerAdapter {
 				ctxB.writeAndFlush(bMsg);
 				//这里暂缺一点东西，缺了服务器给客户端的“收到”回执
 				//回写chat ack，表示服务器已经处理该信息
-				MsgUtil.sendChatAckMsg(ctx, ChatAckCode.SERVER_RECEIVED, msg.getMsgId());
+				if(msgB.getChatType()!=ChatType.ACK) {
+					MsgUtil.sendChatAckMsg(ctx, ChatAckCode.SERVER_RECEIVED, msg.getMsgId());
+				}
 				return;
 			} else {
 				//server to server
@@ -184,8 +186,11 @@ public class IMServerMsgHandler extends ChannelInboundHandlerAdapter {
 					}
 				}
 				//如果都没中，应该是服务器错误
-				MsgUtil.sendChatAckMsg(ctx, ChatAckCode.SERVER_ERROR, msg.getMsgId());
-			}
+				if(msg.getChatType()!=ChatType.ACK) {
+					MsgUtil.sendChatAckMsg(ctx, ChatAckCode.SERVER_ERROR, msg.getMsgId());
+
+				}
+							}
 		} else {
 			//离线或者是刚刚在掉线等待重连
 			//要将信息保存到redis中,这里要更新时间，得到score，防止发送方作假时间
@@ -197,7 +202,9 @@ public class IMServerMsgHandler extends ChannelInboundHandlerAdapter {
 			chatMsg = chatMsg.populateChatMessage(msg);
 			RedisUtil.insertOfflineMsg(userBId, chatMsg);
 			//回写chat ack
-			MsgUtil.sendChatAckMsg(ctx, ChatAckCode.SERVER_RECEIVED, msg.getMsgId());
+			if(msg.getChatType()!=ChatType.ACK) {
+				MsgUtil.sendChatAckMsg(ctx, ChatAckCode.SERVER_RECEIVED, msg.getMsgId());
+			}
 			return;
 		}
 
@@ -341,8 +348,8 @@ public class IMServerMsgHandler extends ChannelInboundHandlerAdapter {
 	@Override
 	public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause)
 			throws Exception {
+		logger.info("the exceptionCaught in IMServerMsgHandler is called");
 		if(cause instanceof SocketTimeoutException) {
-			ChannelFuture closeFuture = ctx.channel().close();
 			User user = ctx.attr(userInfo).get();
 			//让session保存5分钟后失效
 			if(user != null) {
@@ -356,6 +363,7 @@ public class IMServerMsgHandler extends ChannelInboundHandlerAdapter {
 			}
 			//清除user信息
 			ctx.attr(userInfo).set(null);
+			ChannelFuture closeFuture = ctx.channel().close();
 			closeFuture.addListener(new GenericFutureListener<Future<? super Void>>() {
 
 				@Override
@@ -365,12 +373,46 @@ public class IMServerMsgHandler extends ChannelInboundHandlerAdapter {
 				}
 			});
 		}
+		//得处理其他IOException
+		//还有就是客户端主动关闭会产生什么样的情况
 		super.exceptionCaught(ctx, cause);
 	}
-	
-	
-	
-	
-	
-	
+
+	@Override
+	public void channelRegistered(ChannelHandlerContext ctx) throws Exception {
+		logger.info("the channelRegistered in IMServerMsgHandler is called");
+		super.channelRegistered(ctx);
+	}
+
+	@Override
+	public void channelUnregistered(ChannelHandlerContext ctx) throws Exception {
+		logger.info("the channelUnregistered in IMServerMsgHandler is called");
+		super.channelUnregistered(ctx);
+	}
+
+	@Override
+	public void channelInactive(ChannelHandlerContext ctx) throws Exception {
+		logger.info("the channelActive in IMServerMsgHandler is called");
+		super.channelInactive(ctx);
+	}
+
+	@Override
+	public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
+		logger.info("the channelReadComplete in IMServerMsgHandler is called");
+		super.channelReadComplete(ctx);
+	}
+
+	@Override
+	public void userEventTriggered(ChannelHandlerContext ctx, Object evt)
+			throws Exception {
+		logger.info("the userEventTriggered in IMServerMsgHandler is called");
+		super.userEventTriggered(ctx, evt);
+	}
+
+	@Override
+	public void channelWritabilityChanged(ChannelHandlerContext ctx)
+			throws Exception {
+		logger.info("the channelWritabilityChanged in IMServerMsgHandler is called");
+		super.channelWritabilityChanged(ctx);
+	}
 }
