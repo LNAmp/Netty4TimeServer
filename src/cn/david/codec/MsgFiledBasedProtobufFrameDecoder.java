@@ -28,9 +28,14 @@ public class MsgFiledBasedProtobufFrameDecoder extends ByteToMessageDecoder {
 		}
 		in.readBytes(msgTypeBytes, 0, 2);
 		String msgType = new String(msgTypeBytes, "UTF-8");
+		//如果是“PI”，不需要解包，直接往后写“PI”
 		//如果是“PO”，不需要解包，直接往后写“PO”
 		if(MsgType.PONG.equals(msgType)) {
 			out.add(MsgType.PONG);
+			return;
+		}
+		if(MsgType.PING.equals(msgType)) {
+			out.add(MsgType.PING);
 			return;
 		}
 		MessageLite msgProto = MsgTypeTable.getMsgProto(msgType);

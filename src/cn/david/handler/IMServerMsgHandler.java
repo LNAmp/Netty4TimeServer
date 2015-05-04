@@ -40,6 +40,7 @@ import cn.david.task.ChatMsgRouteTask;
 import cn.david.task.LoginTask;
 import cn.david.task.RegisterTask;
 import cn.david.task.UploadLocTask;
+import cn.david.util.DateUtil;
 import cn.david.util.HazelcastUtil;
 import cn.david.util.MsgUtil;
 import cn.david.util.RedisUtil;
@@ -52,12 +53,27 @@ public class IMServerMsgHandler extends ChannelInboundHandlerAdapter {
 	Logger logger = Logger.getLogger(IMServerMsgHandler.class);
 
 	public static final AttributeKey<User> userInfo = AttributeKey.valueOf("userInfo");
+	//private static int pongCount = 5;
+	
 	@Override
 	public void channelRead(ChannelHandlerContext ctx, Object msg)
 			throws Exception {
 		logger.info("the ServerMsgHandler start to handler Msg.");
 		if(msg instanceof String) {
-			System.out.println(msg);
+			if(MsgType.PING.equals((String)msg)) {
+				logger.info("At time : "+ DateUtil.printCurTime() +" ,recevie the PING.");
+//				if(pongCount == 5) {
+//					return;
+//				}
+				ServerMsg msg1 = new ServerMsg();
+				msg1.setMsgType(MsgType.PONG);
+				msg1.setProtoMsgContent(null);
+//				pongCount++;
+				ctx.writeAndFlush(msg1);
+				return;
+			}else if(MsgType.PONG.equals((String)msg)) {
+				System.out.println(msg);
+			}
 		}else if(msg instanceof UploadLocMsg) {
 			logger.info("process the UploadLocMsg");
 			processUploadLocMsg( (UploadLocMsg)msg ,ctx);
@@ -333,10 +349,10 @@ public class IMServerMsgHandler extends ChannelInboundHandlerAdapter {
 		//在这个地方将心跳handler加入
 		logger.info("the channelActive in IMServerMsgHandler is called");
 
-		ChannelPipeline pipeline = ctx.pipeline();
-		pipeline.addAfter("protobufEncoder", "idleStateHandler", new IdleStateHandler(
-				IdleStateConstant.READER_IDLE_TIME, IdleStateConstant.WRITER_IDLE_TIME, IdleStateConstant.ALL_IDLE_TIME));
-		pipeline.addAfter("idleStateHandler", "HeartbeatCheckHandler", new HeartbeatCheckHandler());
+//		ChannelPipeline pipeline = ctx.pipeline();
+//		pipeline.addAfter("protobufEncoder", "idleStateHandler", new IdleStateHandler(
+//				IdleStateConstant.READER_IDLE_TIME, IdleStateConstant.WRITER_IDLE_TIME, IdleStateConstant.ALL_IDLE_TIME));
+//		pipeline.addAfter("idleStateHandler", "HeartbeatCheckHandler", new HeartbeatCheckHandler());
 		
 //		List<String> names= ctx.pipeline().names();
 //		for(String name : names ) {
